@@ -1,0 +1,617 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css" />
+    <link rel="stylesheet" type="text/css" href="css/cs-select.css" />
+    <link rel="stylesheet" type="text/css" href="css/cs-skin-border.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-condensed">
+        <div class="container-fluid col-condensed">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-condensed">
+                <div class="col-lg-2 col-md-2  col-sm-2 col-xs-5 left_bar">
+                    <div class="col-lg-12 col-md-12 col-sm12 col-xs-12 col-condensed">
+                        <a href="javascript::" class="logo_text"><img class="img-responsive" src="img/logo.png" alt="logo">Welcome to
+                            <br> Youth Hub</a>
+                        <ul class="list-unstyled text-center">
+                            <li>
+                            </li>
+                            <li><a class="" href="javascript::">DISCOVER</a></li>
+                            <li><a class="" href="javascript::">Directory</a></li>
+                            <li><a class="" href="javascript::">JOBS</a></li>
+                            <li><a class="" href="javascript::">WHATS ON</a></li>
+                            <li><a class="" href="javascript::">ABOUT</a></li>
+                            <li><a class="" href="javascript::">CONTACT US</a></li>
+                            <li><a class="" href="javascript::">SIGN UP</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Right Section  -->
+                <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12 right_section">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 right_section_inner">
+                        <div class=" hidden-lg hidden-md hidden-sm visible-xs col-xs-12 col-condensed mob_header">
+                            <a href="javascript::" class="pull-left"><img class="img-responsive" src="img/header_logo.png" alt="logo"></a>
+                            <ul class="list-inline  pull-right">
+                                <li>
+                                    <i class="ion-ios-search-strong" aria-hidden="true"></i>
+                                </li>
+                                <li>
+                                    <i class="ion-navicon"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-11 col-md-11 col-sm-11 col-xs-11 col-condensed">
+                            <p>Here youth can create their career journey. Showcase experiences and training. Connect with events, employers, educators and training providers. <span>
+Hide 
+<i class="ion-ios-close-empty"></i></span></p>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-condensed  ">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-condensed search_filter">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-condensed">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Search">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col-condensed">
+                                    <select class="cs-select cs-skin-border" id="FilterSelect">
+                                        <option value="" disabled selected>Sort by Most Recent</option>
+                                        <option value="all">Arts</option>
+                                        <option value=".category-1">Agriculture</option>
+                                        <option value=".category-2">Animals</option>
+                                        <option value="Building">Building</option>
+                                        <option value="Career">Career</option>
+                                        <option value="Courses">Courses</option>
+                                        <option value="Community">Community</option>
+                                        <option value="Design">Design</option>
+                                        <option value="Education">Education</option>
+                                    </select>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col-condensed">
+                                    <select class="cs-select cs-skin-border">
+                                        <option value="" disabled selected>Sort by Most Recent</option>
+                                        <option value="myorder:asc">Top Views</option>
+                                        <option value="myorder:desc">Most Recent</option>
+                                        <option value="linkedin">Popular Views</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 post_section col-condensed">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12
+col-condensed ">
+                                    <div class="grid">
+                                        <!-- add sizing element for columnWidth -->
+                                        <div class="grid-sizer col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                                        </div>
+                                        <div class="grid-item col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                                            <!-- wrap item content in its own element -->
+                                            <div class="individual_post">
+                                                <div class="post_img" style="background-image: url(img/post1.png);">
+                                                    <span class="profile_img"><img src="img/profile1.png"></span>
+                                                </div>
+                                                <div class="post_box">
+                                                    <div class="post_title">
+                                                        <h4>The Beautiful Te Puna Wanaka at Ara Institute of Canterbury</h4>
+                                                    </div>
+                                                    <div class="post_text">
+                                                        <h5>The beautiful Te Puna Wanaka at the Ara Institute of Canterbury, home of CDANZ...</h5>
+                                                    </div>
+                                                    <div class="read_button">
+                                                        <a href="javascript:void(0)" class="btn btn-default">Read More</a>
+                                                    </div>
+                                                      <div class="date_likes">
+                                                        <p class="pull-left">09 SEP 2016</p>
+                                                        <i class="ion-ios-eye pull-right"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="grid-item col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                                            <!-- wrap item content in its own element -->
+                                            <div class="individual_post">
+                                                <div class="post_img" style="background-image: url(img/post.png);">
+                                                    <span class="profile_img"><img src="img/profile1.png"></span>
+                                                </div>
+                                                <div class="post_box">
+                                                    <div class="post_title">
+                                                        <h4>The Beautiful Te Puna Wanaka at Ara Institute of Canterbury</h4>
+                                                    </div>
+                                                    <div class="post_text">
+                                                        <h5>The beautiful Te Puna Wanaka at the Ara Institute of Canterbury, home of CDANZ The beautiful Te Puna Wanaka at the Ara Institute of Canterbury, home of CDANZ The beautiful Te Puna Wanaka at the Ara Institute of Canterbury, home of CDANZ The beautiful Te Puna Wanaka at the Ara Institute of Canterbury, home of CDANZ...</h5>
+                                                    </div>
+                                                    <div class="read_button">
+                                                        <a href="javascript:void(0)" class="btn btn-default">Read More</a>
+                                                    </div>
+                                                      <div class="date_likes">
+                                                        <p class="pull-left">09 SEP 2016</p>
+                                                        <i class="ion-ios-eye pull-right"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="grid-item col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                                            <div class="individual_post">
+                                                <div class="post_img" style="background-image: url(img/post2.png);">
+                                                    <span class="profile_img"><img src="img/profile1.png"></span>
+                                                </div>
+                                                <div class="post_box">
+                                                    <div class="post_title">
+                                                        <h4>The Beautiful Te Puna Wanaka at Ara Institute of Canterbury</h4>
+                                                    </div>
+                                                    <div class="post_text">
+                                                        <h5>The beautiful Te Puna Wanaka at the Ara Institute of Canterbury, home of CDANZ...</h5>
+                                                    </div>
+                                                    <div class="read_button">
+                                                        <a href="javascript:void(0)" class="btn btn-default">Read More</a>
+                                                    </div>
+                                                    <div class="date_likes">
+                                                        <p class="pull-left">09 SEP 2016</p>
+                                                        <i class="ion-ios-eye pull-right"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="grid-item col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                                            <div class="individual_post">
+                                                <div class="post_img" style="background-image: url(img/post3.png);">
+                                                    <span class="profile_img"><img src="img/profile1.png"></span>
+                                                </div>
+                                                <div class="post_box">
+                                                    <div class="post_title">
+                                                        <h4>The Beautiful Te Puna Wanaka at Ara Institute of Canterbury</h4>
+                                                    </div>
+                                                    <div class="post_text">
+                                                        <h5>The beautiful Te Puna Wanaka at the Ara Institute of Canterbury, home of CDANZ The beautiful Te Puna Wanaka at the Ara Institute of Canterbury, home of CDANZ The beautiful Te Puna Wanaka at the Ara Institute of Canterbury, home of CDANZ The beautiful Te Puna Wanaka at the Ara Institute of Canterbury, home of CDANZ...</h5>
+                                                    </div>
+                                                    <div class="read_button">
+                                                        <a href="javascript:void(0)" class="btn btn-default">Read More</a>
+                                                    </div>
+                                                      <div class="date_likes">
+                                                        <p class="pull-left">09 SEP 2016</p>
+                                                        <i class="ion-ios-eye pull-right"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="grid-item col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                                            <!-- wrap item content in its own element -->
+                                            <div class="individual_post">
+                                                <div class="post_img" style="background-image: url(img/post.png);">
+                                                    <span class="profile_img"><img src="img/profile1.png"></span>
+                                                </div>
+                                                <div class="post_box">
+                                                    <div class="post_title">
+                                                        <h4>The Beautiful Te Puna Wanaka at Ara Institute of Canterbury</h4>
+                                                    </div>
+                                                    <div class="post_text">
+                                                        <h5>The beautiful Te Puna Wanaka at the Ara Institute of Canterbury, home of CDANZ...</h5>
+                                                    </div>
+                                                    <div class="read_button">
+                                                        <a href="javascript:void(0)" class="btn btn-default">Read More</a>
+                                                    </div>
+                                                      <div class="date_likes">
+                                                        <p class="pull-left">09 SEP 2016</p>
+                                                        <i class="ion-ios-eye pull-right"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="grid-item col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                                            <!-- wrap item content in its own element -->
+                                            <div class="individual_post">
+                                                <div class="post_img" style="background-image: url(img/post1.png);">
+                                                    <span class="profile_img"><img src="img/profile1.png"></span>
+                                                </div>
+                                                <div class="post_box">
+                                                    <div class="post_title">
+                                                        <h4>The Beautiful Te Puna Wanaka at Ara Institute of Canterbury</h4>
+                                                    </div>
+                                                    <div class="post_text">
+                                                        <h5>The beautiful Te Puna Wanaka at the Ara Institute of Canterbury, home of CDANZ The beautiful Te Puna Wanaka at the Ara Institute of Canterbury, home of CDANZ The beautiful Te Puna Wanaka at the Ara Institute of Canterbury, home of CDANZ The beautiful Te Puna Wanaka at the Ara Institute of Canterbury, home of CDANZ...</h5>
+                                                    </div>
+                                                    <div class="read_button">
+                                                        <a href="javascript:void(0)" class="btn btn-default">Read More</a>
+                                                    </div>
+                                                      <div class="date_likes">
+                                                        <p class="pull-left">09 SEP 2016</p>
+                                                        <i class="ion-ios-eye pull-right"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="grid-item col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                                            <div class="individual_post">
+                                                <div class="post_img" style="background-image: url(img/post2.png);">
+                                                    <span class="profile_img"><img src="img/profile1.png"></span>
+                                                </div>
+                                                <div class="post_box">
+                                                    <div class="post_title">
+                                                        <h4>The Beautiful Te Puna Wanaka at Ara Institute of Canterbury</h4>
+                                                    </div>
+                                                    <div class="post_text">
+                                                        <h5>The beautiful Te Puna Wanaka at the Ara Institute of Canterbury, home of CDANZ The beautiful Te Puna Wanaka at the Ara Institute of Canterbury, home of CDANZ The beautiful Te Puna Wanaka at the Ara Institute of Canterbury, home of CDANZ The beautiful Te Puna Wanaka at the Ara Institute of Canterbury, home of CDANZ...</h5>
+                                                    </div>
+                                                    <div class="read_button">
+                                                        <a href="javascript:void(0)" class="btn btn-default">Read More</a>
+                                                    </div>
+                                                      <div class="date_likes">
+                                                        <p class="pull-left">09 SEP 2016</p>
+                                                        <i class="ion-ios-eye pull-right"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="grid-item col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                                            <div class="individual_post">
+                                                <div class="post_img" style="background-image: url(img/post3.png);">
+                                                    <span class="profile_img"><img src="img/profile1.png"></span>
+                                                </div>
+                                                <div class="post_box">
+                                                    <div class="post_title">
+                                                        <h4>The Beautiful Te Puna Wanaka at Ara Institute of Canterbury</h4>
+                                                    </div>
+                                                    <div class="post_text">
+                                                        <h5>The beautiful Te Puna Wanaka at the Ara Institute of Canterbury, home of CDANZ The beautiful Te Puna Wanaka at the Ara Institute of Canterbury, home of CDANZ The beautiful Te Puna Wanaka at the Ara Institute of Canterbury, home of CDANZ The beautiful Te Puna Wanaka at the Ara Institute of Canterbury, home of CDANZ....</h5>
+                                                    </div>
+                                                    <div class="read_button">
+                                                        <a href="javascript:void(0)" class="btn btn-default">Read More</a>
+                                                    </div>
+                                                      <div class="date_likes">
+                                                        <p class="pull-left">09 SEP 2016</p>
+                                                        <i class="ion-ios-eye pull-right"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="grid-item col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                                            <!-- wrap item content in its own element -->
+                                            <div class="individual_post">
+                                                <div class="post_img" style="background-image: url(img/post.png);">
+                                                    <span class="profile_img"><img src="img/profile1.png"></span>
+                                                </div>
+                                                <div class="post_box">
+                                                    <div class="post_title">
+                                                        <h4>The Beautiful Te Puna Wanaka at Ara Institute of Canterbury</h4>
+                                                    </div>
+                                                    <div class="post_text">
+                                                        <h5>The beautiful Te Puna Wanaka at the Ara Institute of Canterbury, home of CDANZ...</h5>
+                                                    </div>
+                                                    <div class="read_button">
+                                                        <a href="javascript:void(0)" class="btn btn-default">Read More</a>
+                                                    </div>
+                                                      <div class="date_likes">
+                                                        <p class="pull-left">09 SEP 2016</p>
+                                                        <i class="ion-ios-eye pull-right"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="grid-item col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                                            <!-- wrap item content in its own element -->
+                                            <div class="individual_post">
+                                                <div class="post_img" style="background-image: url(img/post1.png);">
+                                                    <span class="profile_img"><img src="img/profile1.png"></span>
+                                                </div>
+                                                <div class="post_box">
+                                                    <div class="post_title">
+                                                        <h4>The Beautiful Te Puna Wanaka at Ara Institute of Canterbury</h4>
+                                                    </div>
+                                                    <div class="post_text">
+                                                        <h5>The beautiful Te Puna Wanaka at the Ara Institute of Canterbury, home of CDANZ The beautiful Te Puna Wanaka at the Ara Institute of Canterbury, home of CDANZ The beautiful Te Puna Wanaka at the Ara Institute of Canterbury, home of CDANZ The beautiful Te Puna Wanaka at the Ara Institute of Canterbury, home of CDANZ....</h5>
+                                                    </div>
+                                                    <div class="read_button">
+                                                        <a href="javascript:void(0)" class="btn btn-default">Read More</a>
+                                                    </div>
+                                                      <div class="date_likes">
+                                                        <p class="pull-left">09 SEP 2016</p>
+                                                        <i class="ion-ios-eye pull-right"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="grid-item col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                                            <!-- wrap item content in its own element -->
+                                            <div class="individual_post">
+                                                <div class="post_img" style="background-image: url(img/post.png);">
+                                                    <span class="profile_img"><img src="img/profile1.png"></span>
+                                                </div>
+                                                <div class="post_box">
+                                                    <div class="post_title">
+                                                        <h4>The Beautiful Te Puna Wanaka at Ara Institute of Canterbury</h4>
+                                                    </div>
+                                                    <div class="post_text">
+                                                        <h5>The beautiful Te Puna Wanaka at the Ara Institute of Canterbury, home of CDANZ...</h5>
+                                                    </div>
+                                                    <div class="read_button">
+                                                        <a href="javascript:void(0)" class="btn btn-default">Read More</a>
+                                                    </div>
+                                                      <div class="date_likes">
+                                                        <p class="pull-left">09 SEP 2016</p>
+                                                        <i class="ion-ios-eye pull-right"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="grid-item col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                                            <!-- wrap item content in its own element -->
+                                            <div class="individual_post">
+                                                <div class="post_img" style="background-image: url(img/post2.png);">
+                                                    <span class="profile_img"><img src="img/profile1.png"></span>
+                                                </div>
+                                                <div class="post_box">
+                                                    <div class="post_title">
+                                                        <h4>The Beautiful Te Puna Wanaka at Ara Institute of Canterbury</h4>
+                                                    </div>
+                                                    <div class="post_text">
+                                                        <h5>The beautiful Te Puna Wanaka at the Ara Institute of Canterbury, home of CDANZ...</h5>
+                                                    </div>
+                                                    <div class="read_button">
+                                                        <a href="javascript:void(0)" class="btn btn-default">Read More</a>
+                                                    </div>
+                                                      <div class="date_likes">
+                                                        <p class="pull-left">09 SEP 2016</p>
+                                                        <i class="ion-ios-eye pull-right"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="grid-item col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                                            <!-- wrap item content in its own element -->
+                                            <div class="individual_post">
+                                                <div class="post_img" style="background-image: url(img/post3.png);">
+                                                    <span class="profile_img"><img src="img/profile1.png"></span>
+                                                </div>
+                                                <div class="post_box">
+                                                    <div class="post_title">
+                                                        <h4>The Beautiful Te Puna Wanaka at Ara Institute of Canterbury</h4>
+                                                    </div>
+                                                    <div class="post_text">
+                                                        <h5>The beautiful Te Puna Wanaka at the Ara Institute of Canterbury, home of CDANZ...</h5>
+                                                    </div>
+                                                    <div class="read_button">
+                                                        <a href="javascript:void(0)" class="btn btn-default">Read More</a>
+                                                    </div>
+                                                      <div class="date_likes">
+                                                        <p class="pull-left">09 SEP 2016</p>
+                                                        <i class="ion-ios-eye pull-right"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="grid-item col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                                            <!-- wrap item content in its own element -->
+                                            <div class="individual_post">
+                                                <div class="post_img" style="background-image: url(img/post.png);">
+                                                    <span class="profile_img"><img src="img/profile1.png"></span>
+                                                </div>
+                                                <div class="post_box">
+                                                    <div class="post_title">
+                                                        <h4>The Beautiful Te Puna Wanaka at Ara Institute of Canterbury</h4>
+                                                    </div>
+                                                    <div class="post_text">
+                                                        <h5>The beautiful Te Puna Wanaka at the Ara Institute of Canterbury, home of CDANZ...</h5>
+                                                    </div>
+                                                    <div class="read_button">
+                                                        <a href="javascript:void(0)" class="btn btn-default">Read More</a>
+                                                    </div>
+                                                      <div class="date_likes">
+                                                        <p class="pull-left">09 SEP 2016</p>
+                                                        <i class="ion-ios-eye pull-right"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="grid-item col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                                            <!-- wrap item content in its own element -->
+                                            <div class="individual_post">
+                                                <div class="post_img" style="background-image: url(img/post1.png);">
+                                                    <span class="profile_img"><img src="img/profile1.png"></span>
+                                                </div>
+                                                <div class="post_box">
+                                                    <div class="post_title">
+                                                        <h4>The Beautiful Te Puna Wanaka at Ara Institute of Canterbury</h4>
+                                                    </div>
+                                                    <div class="post_text">
+                                                        <h5>The beautiful Te Puna Wanaka at the Ara Institute of Canterbury, home of CDANZ...</h5>
+                                                    </div>
+                                                    <div class="read_button">
+                                                        <a href="javascript:void(0)" class="btn btn-default">Read More</a>
+                                                    </div>
+                                                      <div class="date_likes">
+                                                        <p class="pull-left">09 SEP 2016</p>
+                                                        <i class="ion-ios-eye pull-right"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="grid-item col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                                            <!-- wrap item content in its own element -->
+                                            <div class="individual_post">
+                                                <div class="post_img" style="background-image: url(img/post2.png);">
+                                                    <span class="profile_img"><img src="img/profile1.png"></span>
+                                                </div>
+                                                <div class="post_box">
+                                                    <div class="post_title">
+                                                        <h4>The Beautiful Te Puna Wanaka at Ara Institute of Canterbury</h4>
+                                                    </div>
+                                                    <div class="post_text">
+                                                        <h5>The beautiful Te Puna Wanaka at the Ara Institute of Canterbury, home of CDANZ...</h5>
+                                                    </div>
+                                                    <div class="read_button">
+                                                        <a href="javascript:void(0)" class="btn btn-default">Read More</a>
+                                                    </div>
+                                                      <div class="date_likes">
+                                                        <p class="pull-left">09 SEP 2016</p>
+                                                        <i class="ion-ios-eye pull-right"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="grid-item col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                                            <!-- wrap item content in its own element -->
+                                            <div class="individual_post">
+                                                <div class="post_img" style="background-image: url(img/post3.png);">
+                                                    <span class="profile_img"><img src="img/profile1.png"></span>
+                                                </div>
+                                                <div class="post_box">
+                                                    <div class="post_title">
+                                                        <h4>The Beautiful Te Puna Wanaka at Ara Institute of Canterbury</h4>
+                                                    </div>
+                                                    <div class="post_text">
+                                                        <h5>The beautiful Te Puna Wanaka at the Ara Institute of Canterbury, home of CDANZ...</h5>
+                                                    </div>
+                                                    <div class="read_button">
+                                                        <a href="javascript:void(0)" class="btn btn-default">Read More</a>
+                                                    </div>
+                                                      <div class="date_likes">
+                                                        <p class="pull-left">09 SEP 2016</p>
+                                                        <i class="ion-ios-eye pull-right"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="grid-item col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                                            <!-- wrap item content in its own element -->
+                                            <div class="individual_post">
+                                                <div class="post_img" style="background-image: url(img/post.png);">
+                                                    <span class="profile_img"><img src="img/profile1.png"></span>
+                                                </div>
+                                                <div class="post_box">
+                                                    <div class="post_title">
+                                                        <h4>The Beautiful Te Puna Wanaka at Ara Institute of Canterbury</h4>
+                                                    </div>
+                                                    <div class="post_text">
+                                                        <h5>The beautiful Te Puna Wanaka at the Ara Institute of Canterbury, home of CDANZ...</h5>
+                                                    </div>
+                                                    <div class="read_button">
+                                                        <a href="javascript:void(0)" class="btn btn-default">Read More</a>
+                                                    </div>
+                                                      <div class="date_likes">
+                                                        <p class="pull-left">09 SEP 2016</p>
+                                                        <i class="ion-ios-eye pull-right"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="grid-item col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                                            <!-- wrap item content in its own element -->
+                                            <div class="individual_post">
+                                                <div class="post_img" style="background-image: url(img/post1.png);">
+                                                    <span class="profile_img"><img src="img/profile1.png"></span>
+                                                </div>
+                                                <div class="post_box">
+                                                    <div class="post_title">
+                                                        <h4>The Beautiful Te Puna Wanaka at Ara Institute of Canterbury</h4>
+                                                    </div>
+                                                    <div class="post_text">
+                                                        <h5>The beautiful Te Puna Wanaka at the Ara Institute of Canterbury, home of CDANZ...</h5>
+                                                    </div>
+                                                    <div class="read_button">
+                                                        <a href="javascript:void(0)" class="btn btn-default">Read More</a>
+                                                    </div>
+                                                      <div class="date_likes">
+                                                        <p class="pull-left">09 SEP 2016</p>
+                                                        <i class="ion-ios-eye pull-right"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="grid-item col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                                            <div class="individual_post">
+                                                <div class="post_img" style="background-image: url(img/post2.png);">
+                                                    <span class="profile_img"><img src="img/profile1.png"></span>
+                                                </div>
+                                                <div class="post_box">
+                                                    <div class="post_title">
+                                                        <h4>The Beautiful Te Puna Wanaka at Ara Institute of Canterbury</h4>
+                                                    </div>
+                                                    <div class="post_text">
+                                                        <h5>The beautiful Te Puna Wanaka at the Ara Institute of Canterbury, home of CDANZ...</h5>
+                                                    </div>
+                                                    <div class="read_button">
+                                                        <a href="javascript:void(0)" class="btn btn-default">Read More</a>
+                                                    </div>
+                                                      <div class="date_likes">
+                                                        <p class="pull-left">09 SEP 2016</p>
+                                                        <i class="ion-ios-eye pull-right"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="grid-item col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                                            <div class="individual_post">
+                                                <div class="post_img" style="background-image: url(img/post3.png);">
+                                                    <span class="profile_img"><img src="img/profile1.png"></span>
+                                                </div>
+                                                <div class="post_box">
+                                                    <div class="post_title">
+                                                        <h4>The Beautiful Te Puna Wanaka at Ara Institute of Canterbury</h4>
+                                                    </div>
+                                                    <div class="post_text">
+                                                        <h5>The beautiful Te Puna Wanaka at the Ara Institute of Canterbury, home of CDANZ...</h5>
+                                                    </div>
+                                                    <div class="read_button">
+                                                        <a href="javascript:void(0)" class="btn btn-default">Read More</a>
+                                                    </div>
+                                                      <div class="date_likes">
+                                                        <p class="pull-left">09 SEP 2016</p>
+                                                        <i class="ion-ios-eye pull-right"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Right Section  -->
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+    <script src="js/vendor/masonry.pkgd.min.js"></script>
+    <script src="js/vendor/imagesloaded.pkgd.min.js"></script>
+    <script src="js/vendor/classie.js"></script>
+    <script src="js/vendor/selectFx.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+    (function() {
+        [].slice.call(document.querySelectorAll('select.cs-select')).forEach(function(el) {
+            new SelectFx(el);
+        });
+    })();
+    </script>
+    <script>
+    $('.grid').masonry({
+        itemSelector: '.grid-item', // use a separate class for itemSelector, other than .col-
+        columnWidth: '.grid-sizer',
+        percentPosition: true
+    });
+    </script>
+</body>
+
+</html>
