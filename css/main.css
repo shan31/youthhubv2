@@ -365,6 +365,7 @@ padding-left: 15px;
     letter-spacing: 0.5px;
     font-family: 'robotoregular';
     line-height: 18px;
+        text-align: justify;
   }
  .read_button .btn{
       background: transparent;
