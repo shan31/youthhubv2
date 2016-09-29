@@ -1,617 +1,164 @@
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-   @font-face {
-    font-family: 'robotobold';
-    src: url('../fonts/Roboto-Bold-webfont.eot');
-    src: url('../fonts/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Roboto-Bold-webfont.woff') format('woff'),
-         url('../fonts/Roboto-Bold-webfont.ttf') format('truetype'),
-         url('../fonts/Roboto-Bold-webfont.svg#robotobold') format('svg');
-    font-weight: normal;
-    font-style: normal;
 
+@font-face { font-family: 'robotobold'; src: url('../fonts/Roboto-Bold-webfont.eot'); src: url('../fonts/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-Bold-webfont.woff') format('woff'), url('../fonts/Roboto-Bold-webfont.ttf') format('truetype'), url('../fonts/Roboto-Bold-webfont.svg#robotobold') format('svg'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'robotoregular'; src: url('../fonts/Roboto-Regular-webfont.eot'); src: url('../fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-Regular-webfont.woff') format('woff'), url('../fonts/Roboto-Regular-webfont.ttf') format('truetype'), url('../fonts/Roboto-Regular-webfont.svg#robotoregular') format('svg'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'robotomedium'; src: url('../fonts/Roboto-Medium-webfont.eot'); src: url('../fonts/Roboto-Medium-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-Medium-webfont.woff') format('woff'), url('../fonts/Roboto-Medium-webfont.ttf') format('truetype'), url('../fonts/Roboto-Medium-webfont.svg#robotomedium') format('svg'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'robotoblack'; src: url('../fonts/roboto-black-webfont.eot'); src: url('../fonts/roboto-black-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/roboto-black-webfont.woff2') format('woff2'), url('../fonts/roboto-black-webfont.woff') format('woff'), url('../fonts/roboto-black-webfont.ttf') format('truetype'), url('../fonts/roboto-black-webfont.svg#robotoblack') format('svg'); font-weight: normal; font-style: normal; }
+body { font-family: 'Roboto', sans-serif; }
+#loading { width: 100%; height: 100%; top: 0; left: 0; position: fixed; display: block; opacity: 1; background-color: #fff; z-index: 99; text-align: center; }
+#loading-image { position: absolute; top: 45%; left: 45%; z-index: 100; }
+.col-condensed { padding-left: 0px; padding-right: 0px; }
+a {
+    color: #fff;
+    text-decoration: none;
 }
-@font-face {
-    font-family: 'robotoregular';
-    src: url('../fonts/Roboto-Regular-webfont.eot');
-    src: url('../fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Roboto-Regular-webfont.woff') format('woff'),
-         url('../fonts/Roboto-Regular-webfont.ttf') format('truetype'),
-         url('../fonts/Roboto-Regular-webfont.svg#robotoregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+a:hover, a:focus { text-decoration: none; }
+.form-control:focus { outline: none; box-shadow: none; color: #fff; }
 
-}
-@font-face {
-    font-family: 'robotomedium';
-    src: url('../fonts/Roboto-Medium-webfont.eot');
-    src: url('../fonts/Roboto-Medium-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Roboto-Medium-webfont.woff') format('woff'),
-         url('../fonts/Roboto-Medium-webfont.ttf') format('truetype'),
-         url('../fonts/Roboto-Medium-webfont.svg#robotomedium') format('svg');
-    font-weight: normal;
-    font-style: normal;
 
-}
-@font-face {
-    font-family: 'robotoblack';
-    src: url('../fonts/roboto-black-webfont.eot');
-    src: url('../fonts/roboto-black-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/roboto-black-webfont.woff2') format('woff2'),
-         url('../fonts/roboto-black-webfont.woff') format('woff'),
-         url('../fonts/roboto-black-webfont.ttf') format('truetype'),
-         url('../fonts/roboto-black-webfont.svg#robotoblack') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-body {
-	font-family: 'Roboto', sans-serif;
-}
-#loading {
-   width: 100%;
-   height: 100%;
-   top: 0;
-   left: 0;
-   position: fixed;
-   display: block;
-   opacity: 1;
-   background-color: #fff;
-   z-index: 99;
-   text-align: center;
-}
-
-#loading-image {
-     position: absolute;
-    top: 45%;
-    left: 45%;
-    z-index: 100;
-}
-.col-condensed {
-	padding-left: 0px;
-	padding-right: 0px;
-}
-
-a:hover,
-a:focus {
-	text-decoration: none;
-}
-.form-control:focus{
-	outline: none;
-	box-shadow: none;
-	color: #fff;
-	
-}
 /*Left Bar Section Css*/
-.left_bar {
-	height: 100vh;
-	background-color: #1a2a3a;
-	position: fixed;
-	left: 0px;
-}
-
-.left_bar a.logo_text {
-	color: #fff;
-	text-align: center;
-	font-weight: 500;
-	display: table;
-	position: relative;
-	margin: 0 auto;
-	padding: 10px 0px;
-	letter-spacing: 1px;
-	font-size: 18px;
-}
-
-.left_bar a.logo_text img {
-	display: table;
-	margin: 10px auto;
-}
-
-.left_bar a.logo_text i {
-	position: absolute;
-	top: 0px;
-	right: -55px;
-}
-
-.left_bar ul li {
-	padding: 5% 0px;
-}
-
-.left_bar ul li a {
-	color: #fff;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-	text-align: center;
-	font-weight: 300;
-	margin: 0 auto;
-}
+.left_bar { height: 100vh; background-color: #1a2a3a; position: fixed; left: 0px; }
+.left_bar a.logo_text { color: #fff; text-align: center; font-weight: 500; display: table; position: relative; margin: 0 auto; padding: 10px 0px; letter-spacing: 1px; font-size: 18px; }
+.left_bar a.logo_text img { display: table; margin: 10px auto; }
+.left_bar a.logo_text i { position: absolute; top: 0px; right: -55px; }
+.left_bar ul li { padding: 5% 0px; }
+.left_bar ul li a { color: #fff; letter-spacing: 1px; text-transform: uppercase; text-align: center; font-weight: 300; margin: 0 auto; }
 
 /*End Left Bar Section Css*/
 
 /*Right Section CSS*/
-
-.right_section {
-	padding: 0px;
-	height: 100%;
-	
-	position: fixed;
-	right: 0px;
-	overflow: auto;
-background-image: url('../img/bg.png');
- 
-
-}
-.right_section_inner{
-height: 100vh;
-overflow: auto;
-background: rgba(36,108,224,1);
-background: -moz-linear-gradient(top, rgba(36,108,224,1) 0%, rgba(36,108,224,0.97) 21%, rgba(8,46,84,0.95) 31%, rgba(8,46,84,0.85) 100%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(36,108,224,1)), color-stop(21%, rgba(36,108,224,0.97)), color-stop(31%, rgba(8,46,84,0.95)), color-stop(100%, rgba(8,46,84,0.85)));
-background: -webkit-linear-gradient(top, rgba(36,108,224,1) 0%, rgba(36,108,224,0.97) 21%, rgba(8,46,84,0.95) 31%, rgba(8,46,84,0.85) 100%);
-background: -o-linear-gradient(top, rgba(36,108,224,1) 0%, rgba(36,108,224,0.97) 21%, rgba(8,46,84,0.95) 31%, rgba(8,46,84,0.85) 100%);
-background: -ms-linear-gradient(top, rgba(36,108,224,1) 0%, rgba(36,108,224,0.97) 21%, rgba(8,46,84,0.95) 31%, rgba(8,46,84,0.85) 100%);
-background: linear-gradient(to bottom, rgba(36,108,224,1) 0%, rgba(36,108,224,0.97) 21%, rgba(8,46,84,0.95) 31%, rgba(8,46,84,0.85) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#246ce0', endColorstr='#082e54', GradientType=0 );
-
+.right_section { padding: 0px; height: 100%; position: fixed; right: 0px; overflow: auto; background-image: url('../img/bg1.png');background-size: cover; }
+.right_section_inner {
+  height: 100vh;
+  overflow: auto;
+ /* background: rgba(36, 108, 224, 1);
+  background: -moz-linear-gradient(top, rgba(36, 108, 224, 1) 0%, rgba(36, 108, 224, 0.97) 21%, rgba(8, 46, 84, 0.95) 31%, rgba(8, 46, 84, 0.85) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(36, 108, 224, 1)), color-stop(21%, rgba(36, 108, 224, 0.97)), color-stop(31%, rgba(8, 46, 84, 0.95)), color-stop(100%, rgba(8, 46, 84, 0.85)));
+  background: -webkit-linear-gradient(top, rgba(36, 108, 224, 1) 0%, rgba(36, 108, 224, 0.97) 21%, rgba(8, 46, 84, 0.95) 31%, rgba(8, 46, 84, 0.85) 100%);
+  background: -o-linear-gradient(top, rgba(36, 108, 224, 1) 0%, rgba(36, 108, 224, 0.97) 21%, rgba(8, 46, 84, 0.95) 31%, rgba(8, 46, 84, 0.85) 100%);
+  background: -ms-linear-gradient(top, rgba(36, 108, 224, 1) 0%, rgba(36, 108, 224, 0.97) 21%, rgba(8, 46, 84, 0.95) 31%, rgba(8, 46, 84, 0.85) 100%);
+  background: linear-gradient(to bottom, rgba(36, 108, 224, 1) 0%, rgba(36, 108, 224, 0.97) 21%, rgba(8, 46, 84, 0.95) 31%, rgba(8, 46, 84, 0.85) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#246ce0', endColorstr='#082e54', GradientType=0);*/
 }
 .right_section p {
-	color: #fff;
-	font-weight: 400;
-	letter-spacing: 1px;
-	position: relative;
-          margin: 10px 0px;
-              padding: 10px;
-}
-
-.right_section p span {
-	  position: absolute;
-    right: 0%;
-    bottom: 0px;
-    padding: 1px 10px;
-    border: 1px solid #fff;
-    border-radius: 20px;
-    line-height: 20px;
-    height: 25px;
-    font-size: 14px;
-    text-transform: uppercase;
-    padding: 0px 10px;
-    cursor: pointer;
-}
-
-.right_section p span i {
-	position: relative;
-	top: 2px;
-	font-size: 20px;
-}
-.right_section .search_filter{
-	background-color: #558ae3;
-	height: 50px;
-      margin: 15px 0px;
-      display: table;
-
-}
-.right_section .search_filter .form-group{
-  margin-bottom: 0px;
-}
-.right_section .search_filter input{
-	       background-color: transparent;
-             font-family: 'robotoregular';
-    text-shadow: none;
-    border: none;
-    outline: none;
-    height: 50px;
-    font-size: 24px;
-    padding-left: 50px;
-    color: #fff;
-    margin: 0px;
-    background-image: url(../img/search_icon.png);
-    background-repeat: no-repeat;
-    background-position: 40px 17px;
-    text-indent: 12px;
-    font-weight: 300;
-
-}
-.right_section .search_filter input::-webkit-input-placeholder {
-   color: #fff;
-   font-weight: 300;	
-   font-size: 24px;
-   letter-spacing: 1px;
-   text-indent: 24px;
-}
-
-.right_section .search_filter input:-moz-placeholder { /* Firefox 18- */
-     color: #fff;
-   font-weight: 300;
-   font-size: 24px;
-   letter-spacing: 1px;
-   text-indent: 24px;
-}
-
-.right_section .search_filter input::-moz-placeholder {  /* Firefox 19+ */
-       color: #fff;
-   font-weight: 300;
-   font-size: 24px;
-   letter-spacing: 1px;
-   text-indent: 24px;
-}
-
-.right_section .search_filter input:-ms-input-placeholder {  
-     color: #fff;
-   font-weight: 300;
-   font-size: 24px;
-   letter-spacing: 1px;
-   text-indent: 12px;
-}
-.right_section .search_filter input:focus::-webkit-input-placeholder{
-	color: transparent;
-}
-.right_section .search_filter input:focus:-moz-placeholder{
-	color: transparent;
-}
-.right_section .search_filter input:focus::-moz-placeholder{
-	color: transparent;
-}
-.right_section .search_filter input:focus:-ms-input-placeholder{
-	color: transparent;
-}
-/*.grid-iem:nth-child(1){
-padding-left: 15px;
-    padding-right: 0px;
-}
-.grid-iem:nth-child(4){
-  padding-right: 15px;
-    padding-left: 0px;
-}*/
-.post_title,.post_text,.read_button,.date_likes{
-
-    float: left;
-    width: 100%;
-}
-.date_likes:after{
-  position: absolute;
-  content: '';
-  width:100%;
-  height: 1px;
-  background-color: #fff;
-  left: 0px;
-  right: 0px;
-}
-.date_likes i{
-         padding: 10px;
-}
-.grid-item {
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 1px;
+  position: relative;
+  margin: 10px 0px;
   padding: 10px;
 }
-.date_likes p{
-  margin-top: 0px!important;
-}
- .individual_post{
-   position: relative;
-    float: left;
-    width: 100%;
-    /* background: #325e9a; */
-    background: rgba(71,122,194,1);
-    background: -moz-linear-gradient(top, rgba(71,122,194,1) 0%, rgba(71,122,194,0.5) 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(71,122,194,1)), color-stop(100%, rgba(71,122,194,0.5)));
-    background: -webkit-linear-gradient(top, rgba(71,122,194,1) 0%, rgba(71,122,194,0.5) 100%);
-    background: -o-linear-gradient(top, rgba(71,122,194,1) 0%, rgba(71,122,194,0.5) 100%);
-    background: -ms-linear-gradient(top, rgba(71,122,194,1) 0%, rgba(71,122,194,0.5) 100%);
-    background: linear-gradient(to bottom, rgba(71,122,194,1) 0%, rgba(71,122,194,0.5) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#477ac2', endColorstr='#477ac2', GradientType=0 );
- }
- .post_name p {
-  padding: 0px 15px 0px 60px;
-    text-align: left;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
-        text-transform: uppercase;
- }
-  .post_name{
-        position: relative;
-
-    font-family: 'robotoblack';
-        font-size: 11px;
-    margin-bottom: 0px;
-  }
- .post_img{
- height: 200px;
-    
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    background-position: center center;
-    position: relative;
- }
- .profile_img{
-  position: absolute;
-       bottom: -25px;
-    left: 3%;
-
- }
-#loading1 {
-       text-align: center;
-    margin: 0 auto;
-    background: #fff;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-}
-#loading1  a{
-        position: absolute;
-    top: 5px;
-    left: 5px;
-}
- .profile_img img{
-    width:45px;
-    height: 45px;
-    border-radius: 50%;
- }
- .post_box {
-      padding: 0px 15px 30px;
-      color: #fff;
- }
- .post_box  .post_title h4{
-
-      font-size: 14px;
-    letter-spacing: 0.5px;
-    font-weight: 500;
-        font-family: 'robotomedium';
- }
-  .post_box  .post_text h5{
-    font-size: 12px;
-    font-weight: 400;
-    letter-spacing: 0.5px;
-    font-family: 'robotoregular';
-    line-height: 18px;
-        text-align: justify;
-  }
- .read_button .btn{
-      background: transparent;
-    color: #fff;
-    border-color: #fff;
-    border-radius: 20px;
-    font-weight: 100;
-    letter-spacing: 1px;
-    font-size: 14px;
-        font-family: 'robotoregular';
-    text-shadow: none;
-        margin-bottom: 15px;
-         -webkit-transition: all 0.3s linear;
-  -moz-transition: all 0.3s linear;
-  -o-transition: all 0.3s linear;
-  transition: all 0.3s linear;
- }
-  .read_button .btn:hover{
-    background-color: #fff;
-    color: #082f56;
-  }
-/*select {
-         width: 100%;
-    padding: 5px 35px 5px 5px;
-    font-size: 16px;
-    border: none;
-        border-left: 1px solid #88adeb;
-    height: 50px;
-    color: #fff;
-    font-weight: 300;
-    letter-spacing: 1px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    background: url(../img/down_arrow.png) 95% / 8% no-repeat transparent;
-
-}
-select:focus{
-	background: url(../img/up_arrow.png) 95% / 8% no-repeat transparent;
-}
-select option{
-	color: #000;	
-	padding: 10px;
+.right_section p span { position: absolute; right: 0%; bottom: 0px; padding: 1px 10px; border: 1px solid #fff; border-radius: 20px; line-height: 20px; height: 25px; font-size: 14px; text-transform: uppercase; padding: 0px 10px; cursor: pointer; }
+.right_section p span i { position: relative; top: 2px; font-size: 20px; }
+.right_section .search_filter { background-color: #558ae3; height: 50px; margin: 15px 0px; display: table; }
+.right_section .search_filter .form-group { margin-bottom: 0px; }
+.right_section .search_filter input { background-color: transparent; font-family: 'robotoregular'; text-shadow: none; border: none; outline: none; height: 50px; font-size: 24px; padding-left: 50px; color: #fff; margin: 0px; background-image: url(../img/search_icon.png); background-repeat: no-repeat; background-position: 40px 17px; text-indent: 12px; font-weight: 300; }
+.right_section .search_filter input::-webkit-input-placeholder { color: #fff; font-weight: 300; font-size: 24px; letter-spacing: 1px; text-indent: 24px; }
+.right_section .search_filter input:-moz-placeholder { /* Firefox 18- */
+color: #fff; font-weight: 300; font-size: 24px; letter-spacing: 1px; text-indent: 24px; }
+.right_section .search_filter input::-moz-placeholder {  /* Firefox 19+ */
+color: #fff; font-weight: 300; font-size: 24px; letter-spacing: 1px; text-indent: 24px; }
+.right_section .search_filter input:-ms-input-placeholder { color: #fff; font-weight: 300; font-size: 24px; letter-spacing: 1px; text-indent: 12px; }
+.right_section .search_filter input:focus::-webkit-input-placeholder { color: transparent; }
+.right_section .search_filter input:focus:-moz-placeholder { color: transparent; }
+.right_section .search_filter input:focus::-moz-placeholder { color: transparent; }
+.right_section .search_filter input:focus:-ms-input-placeholder { color: transparent; }
+.post_title, .post_text, .read_button, .date_likes { float: left; width: 100%; }
+.date_likes:after { position: absolute; content: ''; width: 100%; height: 1px; background-color: #fff; left: 0px; right: 0px; }
+.date_likes i { padding: 10px; }
+.grid-item { padding: 10px; }
+.date_likes p { margin: 0px !important; }
+.individual_post { position: relative; float: left; width: 100%;    /* background: #325e9a; */ background: rgba(71, 122, 194, 1); background: -moz-linear-gradient(top, rgba(71, 122, 194, 1) 0%, rgba(71, 122, 194, 0.5) 100%); background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(71, 122, 194, 1)), color-stop(100%, rgba(71, 122, 194, 0.5))); background: -webkit-linear-gradient(top, rgba(71, 122, 194, 1) 0%, rgba(71, 122, 194, 0.5) 100%); background: -o-linear-gradient(top, rgba(71, 122, 194, 1) 0%, rgba(71, 122, 194, 0.5) 100%); background: -ms-linear-gradient(top, rgba(71, 122, 194, 1) 0%, rgba(71, 122, 194, 0.5) 100%); background: linear-gradient(to bottom, rgba(71, 122, 194, 1) 0%, rgba(71, 122, 194, 0.5) 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#477ac2', endColorstr='#477ac2', GradientType=0); }
+.post_name p { padding: 0px 15px 0px 60px; text-align: left; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; text-transform: uppercase; }
+.post_name { position: relative; font-family: 'robotoblack'; font-size: 11px; margin-bottom: 0px; }
+.post_img { height: 200px; background-repeat: no-repeat; background-size: cover; width: 100%; background-position: center center; position: relative; }
+.profile_img { position: absolute; bottom: -25px; left: 3%; }
+#loading1 { text-align: center; margin: 0 auto; background: #fff; border-radius: 50%; width: 30px; height: 30px; }
+#loading1  a { position: absolute; top: 5px; left: 5px; }
+.profile_img img { width: 45px; height: 45px; border-radius: 50%; }
+.post_box { padding: 0px 15px 30px; color: #fff; }
+.post_box  .post_title a:hover{color: #fff;}
+.post_box  .post_title h4 { font-size: 14px; letter-spacing: 0.5px; font-weight: 500; font-family: 'robotomedium'; }
+.post_box  .post_text h5 { font-size: 12px; font-weight: 400; letter-spacing: 0.5px; font-family: 'robotoregular'; line-height: 18px; text-align: justify; }
+.read_button .btn { background: transparent; color: #fff; border-color: #fff; border-radius: 20px; font-weight: 100; letter-spacing: 1px; font-size: 14px; font-family: 'robotoregular'; text-shadow: none; margin-bottom: 15px; -webkit-transition: all 0.3s linear; -moz-transition: all 0.3s linear; -o-transition: all 0.3s linear; transition: all 0.3s linear; }
+.read_button .btn:hover { background-color: #fff; color: #082f56; }
+.img_count { position: absolute; right: 0px; bottom: 0px; background: rgba(0, 0, 0, 0.45); padding: 1px 4px; color: #fff; }
+/*select { width: 100%; padding: 5px 35px 5px 5px; font-size: 16px; border: none; border-left: 1px solid #88adeb; height: 50px; color: #fff; font-weight: 300; letter-spacing: 1px; -webkit-appearance: none; -moz-appearance: none; appearance: none; background: url(../img/down_arrow.png) 95% / 8% no-repeat transparent; }
+select:focus { background: url(../img/up_arrow.png) 95% / 8% no-repeat transparent; }
+select option { color: #000; padding: 10px; }
+target Internet Explorer 9 and Internet Explorer 10:@media screen and (min-width:0 ) {
+  select { background: none; padding: 5px; }
 }*/
-/*target Internet Explorer 9 and Internet Explorer 10:
 
-
-@media screen and (min-width: 0\0) {
-  select {
-    background: none;
-    padding: 5px;
-  }
+/*Mobile Search*/
+.box {
+        position: absolute;
+    top: 0px;
+    /* width: 220px; */
+    left: 0px;
 }
+.search {
+         width: 323px;
+    height: 80px;
+  
+    z-index: 99;
+    border: none;
+    max-width: 0;
+    padding: 15px;
+    transition: all .5s ease;
+    position: absolute;
 
-/*End Right Section CSS*/
+    box-sizing: border-box;
+    opacity: 0;
+    border-bottom: 1px solid #fff;
+    font-size: 24px;
 
-/*Break Queries*/
+}
+.search.expanded {
+    max-width: 700px;
+    opacity: 1;
+    background: #1a2a3a;
+    color: #fff;
+ left: 0px;
+    top: 0px;
+        width: 82%;
+}
+.change_i{
+   z-index: 999;
+    position:absolute;
+    top:25px;
+}
+input.search::-webkit-input-placeholder { color: #fff; font-weight: 300; font-size: 24px; letter-spacing: 1px; text-indent: 24px; }
+input.search:-moz-placeholder {color: #fff; font-weight: 300; font-size: 24px; letter-spacing: 1px; text-indent: 24px; }
+input.search::-moz-placeholder {color: #fff; font-weight: 300; font-size: 24px; letter-spacing: 1px; text-indent: 24px; }
+input.search:-ms-input-placeholder { color: #fff; font-weight: 300; font-size: 24px; letter-spacing: 1px; text-indent: 12px; }
+input.search:focus{outline: none;}
+
+
+
+
+/*Break point*/
+@media (max-width:768px) {
+  .right_section .search_filter{margin-top: 0px;}
+ .right_section p span{    bottom: -15px;}
+}
 @media (max-width:767px) {
-  .right_section_inner{
-    padding: 0px;
-  }
-	.left_bar {
-		z-index: 9;
-		display: none;
-		width: 50%;
-    overflow: auto;
-	}
-
-	.right_section {
-		padding: 0px;
-	}
-
-	.mob_header {
-		background-color: #1a2a3a;
-    height: 80px;
-	}
-
-	.mob_header a {
-		padding: 20px 10px;
-	}
-
-	.mob_header ul {
-		margin-left: 0px;
-    margin-bottom: 0px;
-    height: 80px;
-    display: table;
-	}
-
-	.mob_header ul li {
-		    position: relative;
-    padding: 0px;
-    display: table-cell;
-    width: 60px;
-    height: 100%;
-    text-align: center;
-    vertical-align: middle;
-	}
-
-	.mob_header ul li:after {
-		position: absolute;
-		content: '';
-		width: 1px;
-		top: -5px;
-		left: 0px;
-		bottom: 0px;
-		background-color: #3f4c5a;
-	}
-
-	.mob_header i {
-		color: #fff;
-		font-size: 22px;
-	}
-
-	.left_bar a.logo_text img {
-		width: 60px;
-	}
-  .right_section .search_filter input{
-    background-position: 17px 17px;
-    padding-left: 25px;
-  }
-
+ 
+  .right_section_inner { padding: 0px; }
+  .left_bar { z-index: 9; display: none; width: 50%; overflow: auto; }
+  .right_section { padding: 0px; }
+  .mob_header { background-color: #1a2a3a; height: 80px; }
+  .mob_header a { padding: 20px 10px; }
+  .mob_header ul { margin-left: 0px; margin-bottom: 0px; height: 80px; display: table; }
+  .mob_header ul li {  padding: 0px; display: table-cell; width: 60px; height: 100%; text-align: center; vertical-align: middle; }
+  .mob_header ul li:after { position: absolute; content: ''; width: 1px; top: -5px; left: 0px; bottom: 0px; background-color: #3f4c5a; }
+  .mob_header i { color: #fff; font-size: 22px; }
+  .left_bar a.logo_text img { width: 60px; }
+  .right_section .search_filter input { background-position: 17px 17px; padding-left: 25px; }
 }
 @media (max-width:480px) {
-.grid-item{
-  width: 100%;
+  .grid-item { width: 100%; }
+  .left_bar { width: 70%; }
+  .cs-select ul { max-height: 300px; }
 }
-.left_bar {
-    width: 70%;
-}
-.cs-select ul {
-  max-height: 300px;
-}
-}
-/*End Break Queries*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   <div class="individual_post">
-                                        <div class="post_img">
-                                            <span class="profile_img"><img src="img/profile1.png"></span>
-                                        </div>
-                                        <div class="post_box">
-                                            <div class="post_title">
-                                                <h4>The Beautiful Te Puna Wanaka at Ara Institute of Canterbury</h4>
-                                            </div>
-                                            <div class="post_text">
-                                                <h5>The beautiful Te Puna Wanaka at the Ara Institute of Canterbury, home of CDANZ...</h5>
-                                            </div>
-                                            <div class="read_button">
-                                                <a href="javascript:void(0)" class="btn btn-default">Read More</a>
-                                            </div>
-                                        </div>
-                                    </div>
+/*End Break Points

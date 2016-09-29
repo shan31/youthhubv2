@@ -5,4 +5,7 @@ $(".ion-navicon").click(function() {
             direction: "left"
         }, 500);
     });
-
+$('.ion-ios-search-strong').on('click', function () {
+    $('.search').toggleClass('expanded');
+    $(this).toggleClass('change_i');
+});
