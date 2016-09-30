@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link href="css/full-slider.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css" />
     <link rel="stylesheet" type="text/css" href="css/cs-select.css" />
     <link rel="stylesheet" type="text/css" href="css/cs-skin-border.css" />
@@ -28,7 +29,7 @@
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
     <div id="loading">
-        <img id="loading-image" src="img/hourglass.gif" alt="Loading..." />
+        <img id="loading-image" src="img/Preloader_3.gif" alt="Loading..." />
     </div>
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-condensed">
         <div class="container-fluid col-condensed">
@@ -134,10 +135,12 @@
                                             <!-- wrap item content in its own element -->
                                             <div class="individual_post">
                                                 <div class="post_img">
-                                                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Sbpx2Ev2fBE" frameborder="0" allowfullscreen></iframe>
+                                                    <!--  <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Sbpx2Ev2fBE" frameborder="0" allowfullscreen></iframe> -->
                                                     <div id="video-placeholder"></div>
-                                                    <div id="play"></div>
-                                                    <div id="pause"></div>
+                                                    <div class="all_play">
+                                                        <div id="pause"></div>
+                                                        <div id="play"></div>
+                                                    </div>
                                                     <span class="profile_img"><img src="img/profile1.png"></span>
                                                     <span class="img_count">+2 Photos</span>
                                                 </div>
@@ -164,9 +167,56 @@
                                         <div class="grid-item col-lg-3 col-md-4 col-sm-6 col-xs-6 metal">
                                             <!-- wrap item content in its own element -->
                                             <div class="individual_post">
-                                                <div class="post_img" style="background-image: url(img/post.png);">
+                                                <div class="post_img">
+                                                    <!-- Full Page Image Background Carousel Header -->
+                                                    <div id="myCarousel1" class="carousel slide">
+                                                        <!-- Wrapper for Slides -->
+                                                        <div class="carousel-inner">
+                                                            <div class="item active">
+                                                                <!-- Set the first background image using inline CSS below. -->
+                                                                <a href="img/post4.jpg" class="group2">
+                                                                    <div class="fill" style="background-image:url(img/post4.jpg);"></div>
+                                                                </a>
+                                                                
+                                                            </div>
+                                                            <div class="item">
+                                                                <!-- Set the second background image using inline CSS below. -->
+                                                                 <a href="img/post5.jpg" class="group2">
+                                                                    <div class="fill" style="background-image:url(img/post5.jpg);"></div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="item">
+                                                                <!-- Set the third background image using inline CSS below. -->
+                                                                <a href="img/post6.jpg" class="group2">
+                                                                    <div class="fill" style="background-image:url(img/post6.jpg);"></div>
+                                                                </a>
+                                                             
+                                                            </div>
+                                                             <!--  <div class="item">
+                                                               
+                                                              <div class="fill">
+                                                            <a href="https://www.youtube.com/embed/DQFwe_P5tv8" class="gro2">
+                                                                <div id="video-placeholder"></div>
+                                                            </a>
+                                                    <div class="all_play">
+                                                        <div id="pause"></div>
+                                                        <div id="play"></div>
+                                                    </div>
+                                                                 
+                                                           
+                                                              </div>
+                                                            </div> -->
+                                                        </div>
+                                                        <!-- Controls -->
+                                                        <a class="left carousel-control" href="#myCarousel1" data-slide="prev">
+                                                            <span class="icon-prev"></span>
+                                                        </a>
+                                                        <a class="right carousel-control" href="#myCarousel1" data-slide="next">
+                                                            <span class="icon-next"></span>
+                                                        </a>
+                                                    </div>
                                                     <span class="profile_img"><img src="img/profile1.png"></span>
-                                                    <span class="img_count">+2 Photos</span>
+                                                    <span class="img_count">+2 Photos </span>
                                                 </div>
                                                 <span class="post_name"><p>NEW ZEALAND CADET FORCES</p></span>
                                                 <div class="post_box">
@@ -192,9 +242,9 @@
                                             <div class="individual_post">
                                                 <div class="post_img">
                                                     <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Sbpx2Ev2fBE" frameborder="0" allowfullscreen></iframe>
-                                                    <div id="video-placeholder"></div>
+                                                    <!-- <div id="video-placeholder"></div>
                                                     <div id="play"></div>
-                                                    <div id="pause"></div>
+                                                    <div id="pause"></div> -->
                                                 </div>
                                                 <span class="post_name"><p>AUT LIVE Open Highlights</p></span>
                                                 <div class="post_box">
@@ -296,8 +346,39 @@
                                         <div class="grid-item col-lg-3 col-md-4 col-sm-6 col-xs-6 transition">
                                             <!-- wrap item content in its own element -->
                                             <div class="individual_post">
-                                                <div class="post_img" style="background-image: url(img/post1.png);">
-                                                    <span class="profile_img"><img src="img/profile1.png"></span>
+                                                <div class="post_img">
+                                                                           <!-- Full Page Image Background Carousel Header -->
+                                                    <div id="myCarousel" class="carousel slide">
+                                                        <!-- Wrapper for Slides -->
+                                                        <div class="carousel-inner">
+                                                            <div class="item active">
+                                                                <!-- Set the first background image using inline CSS below. -->
+                                                                <a href="img/post.png" class="group2">
+                                                                    <div class="fill" style="background-image:url(img/post.png);"></div>
+                                                                </a>
+                                                                
+                                                            </div>
+                                                            <div class="item">
+                                                                <!-- Set the second background image using inline CSS below. -->
+                                                                 <a href="img/post2.png" class="group2">
+                                                                    <div class="fill" style="background-image:url(img/post2.png);"></div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="item">
+                                                                <!-- Set the third background image using inline CSS below. -->
+                                                                <a href="img/post3.png" class="group2">
+                                                                    <div class="fill" style="background-image:url(img/post3.png);"></div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Controls -->
+                                                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                                            <span class="icon-prev"></span>
+                                                        </a>
+                                                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                                            <span class="icon-next"></span>
+                                                        </a>
+                                                    </div>
                                                 </div>
                                                 <span class="post_name"><p>AUT LIVE Open Highlights</p></span>
                                                 <div class="post_box">
@@ -778,8 +859,23 @@
     <script src="js/vendor/imagesloaded.pkgd.min.js"></script>
     <script src="js/vendor/classie.js"></script>
     <script src="js/vendor/selectFx.js"></script>
+    <script src="js/vendor/jquery.fitvids.js"></script>
+    <script src="js/vendor/jquery.bxslider.min.js"></script>
+    <script src="js/vendor/jquery.colorbox-min.js"></script>
     <script src="https://www.youtube.com/iframe_api"></script>
     <script src="js/main.js"></script>
+    <script type="text/javascript">
+    $('.bxslider').bxSlider({
+        auto: true,
+        mode: 'fade',
+        autoControls: true
+    });
+    </script>
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
 </body>
 
 </html>
