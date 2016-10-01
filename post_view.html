@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.css" />
     <link rel="stylesheet" type="text/css" href="css/cs-select.css" />
     <link rel="stylesheet" type="text/css" href="css/cs-skin-border.css" />
     <link rel="stylesheet" href="css/main.css">
@@ -28,7 +29,7 @@
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
     <div id="loading">
-        <img id="loading-image" src="img/hourglass.gif" alt="Loading..." />
+        <img id="loading-image" src="img/Preloader_3.gif" alt="Loading..." />
     </div>
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-condensed">
         <div class="container-fluid col-condensed">
@@ -69,27 +70,64 @@
                     </div>
                 </div>
                 <!-- Right Section  -->
-                <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12 right_section">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 right_section_inner">
-                        <div class=" hidden-lg hidden-md hidden-sm visible-xs col-xs-12 col-condensed mob_header">
-                            <a href="javascript::" class="pull-left"><img class="img-responsive" src="img/header_logo.png" alt="logo"></a>
-                            <ul class="list-inline  pull-right">
-                                <li>
-                                    
-
-    <input class="search" type="search" placeholder="Search" />
-<i class="ion-ios-search-strong change_i" aria-hidden="true"></i>
-
-                                </li>
-                                <li>
-                                    <i class="ion-navicon"></i>
-                                </li>
-                            </ul>
+                <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12 right_section single_post">
+                    <div class="col-xs-12 back_root col-condensed">
+                        <div class="col-xs-9">
+                            <a href="javascript:: void(0)">
+                                <h3><i class="ion-chevron-left"></i> Discover</h3></a>
                         </div>
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-condensed  ">
-                            <p id="loading1">
-                                <a href="#"><img src="img/rolling.gif" alt="Loading…" /></a>
-                            </p>
+                        <div class="col-xs-3 search_filter">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Search">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 col-condensed">
+                            <div class="col-xs-12 post_view">
+                                <h1>Throughout BCT 16/02 Recruits</h1>
+                                <div class="col-xs-12 col-condensed">
+                                    <ul class="list-unstyled posted_details">
+                                        <li>
+                                            <p><b>Posted By : </b>Royal Newzealand Navy </p>
+                                        </li>
+                                        <li>
+                                            <p>2 hours ago</p>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:: void(0)">Employment</a> <a href="javascript:: void(0)">Employment</a>
+                                            <a href="javascript:: void(0)">Employment</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-xs-12 col-condensed single_post_img" style="background-image: url('img/post6.jpg');">
+                                </div>
+                                <div class="col-xs-12 col-condensed single_post_text">
+                                    <p>Throughout BCT 16/02 recruits are exposed to many physical training sessions. The aim of them is to ensure all Sailors reach and maintain a desirable level of fitness in order to be deployable and maintain job effectiveness. The photos show BCT 16/02 undertaking endurance training.</p>
+                                </div>
+                                <div class="col-xs-12 col-condensed single_post_gallery">
+                                    <h4 class="pull-left">View Gallery</h4>
+                                    <span class="pull-right">20 Photos</span>
+                                </div>
+                                <div class="col-xs-12 col-condensed ">
+                                    <div class="thumb_gallery">
+                                        <div><img src="img/post6.jpg"></div>
+                                        <div><img src="img/post7.jpg"></div>
+                                        <div><img src="img/post4.jpg"></div>
+                                        <div><img src="img/post6.jpg"></div>
+                                        <div><img src="img/post7.jpg"></div>
+                                        <div><img src="img/post4.jpg"></div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-condensed prev_next_post">
+                                    <ul class="list-inline">
+                                        <li class="pull-left"><a href="javascript::void(0)" class="btn btn-default ">Previous Post</a></li>
+                                         <li class="pull-right"><a href="javascript::void(0)" class="btn btn-default ">Next Post</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                         </div>
                     </div>
                 </div>
@@ -97,81 +135,19 @@
         </div>
         <!-- End Right Section  -->
     </div>
-    </div>
-    </div>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="js/vendor/bootstrap.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.1/isotope.pkgd.min.js"></script>
-    <script src="js/vendor/jquery.infinitescroll.min.js"></script>
-    <script src="js/vendor/imagesloaded.pkgd.min.js"></script>
     <script src="js/vendor/classie.js"></script>
     <script src="js/vendor/selectFx.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
     <script src="js/main.js"></script>
-    <script>
-    (function() {
-        [].slice.call(document.querySelectorAll('select.cs-select')).forEach(function(el) {
-            new SelectFx(el);
-        });
-    })();
-    </script>
     <script type="text/javascript">
-    var $grid = $('.grid');
-    $grid.imagesLoaded(function() {
-        $grid.isotope({
-            itemSelector: '.grid-item', // use a separate class for itemSelector, other than .col-
-            columnWidth: '.grid-sizer',
-            percentPosition: true
-
-        });
-    });
-
-
-
-
-    $grid.on('arrangeComplete', function(event, filteredItems) {
-        console.log('arrangeComplete with ' + filteredItems.length + ' items');
-    });
-
-    // store filter for each group
-    var filters = [];
-
-    // change is-checked class on buttons
-    $('.filters').on('click', '.cs-options li', function(event) {
-        event.preventDefault();
-        var $target = $(event.currentTarget);
-
-        var isChecked = $target.hasClass('cs-selected');
-        $target.toggleClass('cs-selected');
-        var filter = $target.attr('data-value');
-        if (isChecked) {
-            addFilter(filter);
-        } else {
-            removeFilter(filter);
-        }
-        // filter isotope
-        // group filters together, inclusive
-        $grid.isotope({
-            filter: filters.join(',')
-        });
-    });
-
-    function addFilter(filter) {
-        if (filters.indexOf(filter) == -1) {
-            filters.push(filter);
-        }
-    }
-
-    function removeFilter(filter) {
-        var index = filters.indexOf(filter);
-        if (index != -1) {
-            filters.splice(index, 1);
-        }
-    }
-    </script>
-    <script language="javascript" type="text/javascript">
-    $(window).load(function() {
-        $('#loading').hide();
+    $('.thumb_gallery').slick({
+        infinite: true,
+        slidesToShow: 3,
+        centerMode: true,
+        slidesToScroll: 3
     });
     </script>
 </body>
