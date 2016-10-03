@@ -93,14 +93,14 @@
        }
 
        function initialize() {
-           player.mute();
+          
        }
 
        $('#play').on(' click ', function() {
            player.playVideo();
            $(this).hide();
            $('#pause').show();
-           
+           $('#volume-input').show();
            
        });
        $('#pause').on(' click ', function() {
@@ -108,8 +108,11 @@
            $(this).hide();
            $('#play').show();
            $( ".youtube" ).remove();
-
+            $('#volume-input').hide();
        });
+       $('#volume-input').on('change', function () { player.setVolume($(this).val()); }
+);
+// 
 
        $(".group2").colorbox({rel:'group2', transition:"fade"});
        $(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});

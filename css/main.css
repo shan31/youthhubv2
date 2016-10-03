@@ -37,14 +37,14 @@ a:hover, a:focus, a:active { text-decoration: none; color: #fff; outline: none; 
               background: -ms-linear-gradient(top, rgba(36, 108, 224, 1) 0%, rgba(36, 108, 224, 0.97) 21%, rgba(8, 46, 84, 0.95) 31%, rgba(8, 46, 84, 0.85) 100%);
               background: linear-gradient(to bottom, rgba(36, 108, 224, 1) 0%, rgba(36, 108, 224, 0.97) 21%, rgba(8, 46, 84, 0.95) 31%, rgba(8, 46, 84, 0.85) 100%);
               filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#246ce0', endColorstr='#082e54', GradientType=0);*/ }
-  #play { position: absolute; top: 38%; left: 0px; right: 9%; width: 50%; visibility: visible; margin: 0 auto; }
+  #play { position: absolute; top: 38%; left: 0px; right: 9%; width: 50%; visibility: visible; margin: 0 auto; cursor: pointer;}
   #video-placeholder { width: 99.9%; height: 100%; }
   #play:after { position: absolute; content: '\f487'; font-family: 'ionicons'; font-size: 40px; color: #e5e5e5; left: 42%; top: 34%; background: rgba(24, 72, 132, 0.97); text-align: center; width: 50px; border-radius: 50%; height: 50px; line-height: 50px; z-index: 9; text-indent: 5px; }
-  #pause { position: absolute; top: 38%; left: 0px; right: 9%; width: 50%; margin: 0 auto; visibility: hidden; }
+  #pause { position: absolute; top: 38%; left: 0px; right: 9%; width: 50%; margin: 0 auto; visibility: hidden; cursor: pointer;}
   .all_play:hover #pause { visibility: visible; }
   .all_play:hover #play { visibility: visible; }
   .all_play { position: absolute;    /* float: left; */ top: 0px; left: 0px; right: 0px; bottom: 0px; }
-  #pause:after { position: absolute; content: '\f477'; font-family: 'ionicons'; font-size: 40px; color: #e5e5e5; left: 42%; top: 34%; background: rgba(24, 72, 132, 0.97); text-align: center; width: 50px; border-radius: 50%; height: 50px; line-height: 50px; z-index: 9; text-indent: 0px; }
+  #pause:after { position: absolute; content: '\f477'; font-family: 'ionicons'; font-size: 40px; color: #e5e5e5; left: 42%; top: 34%; background: rgba(24, 72, 132, 0.5); text-align: center; width: 50px; border-radius: 50%; height: 50px; line-height: 50px; z-index: 9; text-indent: 0px; }
   .right_section p { color: #fff; font-weight: 400; letter-spacing: 1px; position: relative; margin: 10px 0px; padding: 10px; }
   .right_section p span { position: absolute; right: 0%; bottom: 0px; padding: 1px 10px; border: 1px solid #fff; border-radius: 20px; line-height: 20px; height: 25px; font-size: 14px; text-transform: uppercase; padding: 0px 10px; cursor: pointer; }
   .right_section p span i { position: relative; top: 2px; font-size: 20px; }
@@ -304,31 +304,115 @@ a:hover, a:focus, a:active { text-decoration: none; color: #fff; outline: none; 
     width: 100%;
     margin-bottom: 10px;
     }
-  /*End Individual Post*/
-
-  /*Break point*/
-  @media (max-width:768px) {
-    .right_section .search_filter { margin-top: 0px; }
-    .right_section p span { bottom: -15px; }
-  }
-  @media (max-width:767px) {
-    .right_section_inner { padding: 0px; }
-    .left_bar { z-index: 9; display: none; width: 50%; overflow: auto; }
-    .right_section { padding: 0px; }
-    .mob_header { background-color: #1a2a3a; height: 80px; }
-    .mob_header a { padding: 20px 10px; }
-    .mob_header ul { margin-left: 0px; margin-bottom: 0px; height: 80px; display: table; }
-    .mob_header ul li { padding: 0px; display: table-cell; width: 60px; height: 100%; text-align: center; vertical-align: middle; }
-    .mob_header ul li:after { position: absolute; content: ''; width: 1px; top: -5px; left: 0px; bottom: 0px; background-color: #3f4c5a; }
-    .mob_header i { color: #fff; font-size: 22px; }
-    .left_bar a.logo_text img { width: 60px; }
-    .right_section .search_filter input { background-position: 17px 17px; padding-left: 25px; }
-    .footer{
-    width: 97.8%;}
-  }
-  @media (max-width:480px) {
-    .grid-item { width: 100%; }
-    .left_bar { width: 70%; }
-    .cs-select ul { max-height: 300px; }
-  }
+   input[type=range] {
+  -webkit-appearance: none;
+  margin: 10px 0;
+  width: 100%;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 0px 0px 0px #2497E3;
+  background: #2497E3;
+  border-radius: 1px;
+  border: 0px solid #2497E3;
+}
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 0px 0px 0px #FFFFFF;
+  border: 1px solid #CCCCCC;
+  height: 18px;
+  width: 18px;
+  border-radius: 25px;
+  background: #FFFFFF;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -7px;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #2497E3;
+}
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 0px 0px 0px #2497E3;
+  background: #2497E3;
+  border-radius: 1px;
+  border: 0px solid #2497E3;
+}
+input[type=range]::-moz-range-thumb {
+  box-shadow: 0px 0px 0px #FFFFFF;
+  border: 1px solid #CCCCCC;
+  height: 18px;
+  width: 18px;
+  border-radius: 25px;
+  background: #FFFFFF;
+  cursor: pointer;
+}
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+  animate: 0.2s;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+  background: #2497E3;
+  border: 0px solid #2497E3;
+  border-radius: 2px;
+  box-shadow: 0px 0px 0px #2497E3;
+}
+input[type=range]::-ms-fill-upper {
+  background: #2497E3;
+  border: 0px solid #2497E3;
+  border-radius: 2px;
+  box-shadow: 0px 0px 0px #2497E3;
+}
+input[type=range]::-ms-thumb {
+  box-shadow: 0px 0px 0px #FFFFFF;
+  border: 1px solid #CCCCCC;
+  height: 18px;
+  width: 18px;
+  border-radius: 25px;
+  background: #FFFFFF;
+  cursor: pointer;
+}
+input[type=range]:focus::-ms-fill-lower {
+  background: #2497E3;
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: #2497E3;
+}
+#volume-input{
+    margin: 0px;
+    /* bottom: 20px; */
+    position: absolute;
+    width: 20%;
+    right: -15px;
+    height: 20px;
+    bottom: -55px;
+    height: 100%;
+    /* top: 0px; */
+    -ms-transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+    transform: rotate(-90deg);
+    background: transparent;
+    display: none;
+}
   /*End Break Points
+
+
+
+
+
+
+
+
