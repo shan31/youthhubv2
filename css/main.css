@@ -199,7 +199,8 @@ a:hover, a:focus, a:active { text-decoration: none; color: #fff; outline: none; 
 }
     .single_post .might_like ul li div{background:#fff;padding: 10px 15px;height: 100%; box-shadow: 0px 0px 0px #ccc;
   -webkit-transition:  box-shadow .2s ease-out;
-     box-shadow: .8px .9px 3px #ccc; }
+     box-shadow: .8px .9px 3px #ccc;
+         border: 1px solid rgba(204, 204, 204, 0.43); }
     .single_post .might_like ul li:nth-child(1n+0){padding-left: 0px;}
     .single_post .might_like ul li:nth-child(3n+3){padding-right: 0px;}
     .single_post .might_like ul li a h4{color: #686868;    overflow: hidden;
