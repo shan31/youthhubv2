@@ -463,6 +463,9 @@ input[type=range]:focus::-ms-fill-upper {
    .mob_header i { color: #fff; font-size: 22px; }
   .left_bar a.logo_text img { width: 60px; }
   .right_section .search_filter input { background-position: 17px 17px; padding-left: 25px; }
+  .footer{
+        width: 97.3%;
+  }
 }
 @media (max-width:604px) {
  .single_post .might_like.trending_posts:after{
