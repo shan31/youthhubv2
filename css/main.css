@@ -455,8 +455,8 @@ input[type=range]:focus::-ms-fill-upper {
   .right_section .search_filter input { background-position: 17px 17px; padding-left: 25px; }
 }
 @media (max-width:603px) {
- .single_post .might_like.trending_posts{
-  border: none;
+ .single_post .might_like.trending_posts:after{
+  display: none;
  }
 }
 @media (max-width:480px) {
