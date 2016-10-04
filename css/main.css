@@ -496,6 +496,12 @@ input[type=range]:focus::-ms-fill-upper {
   .single_post .slick-slide img{
     height: 500px;
   }
+  .single_post .might_like.trending_posts .trending_posts_section{
+        width: 100%;
+    padding: 0px;
+    float: none;
+    margin: 0 auto 40%;
+  }
 }
 @media (max-width:604px) {
  .single_post .might_like.trending_posts:after{
