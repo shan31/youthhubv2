@@ -476,7 +476,7 @@ input[type=range]:focus::-ms-fill-upper {
   width: 100%;
  }
  .might_like {
-    margin-bottom: 40%;
+    margin-bottom: 0%;
 }
 .single_post .post_view {
     padding: 20px 3% 20px 3%;
