@@ -409,6 +409,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
  @media (max-width:1024px) {
   .single_post .might_like ul li{width: 50%;}
+  .single_post  .single_post_img{height: 250px;}
  }
 @media (max-width:768px) {
    .right_section .search_filter{margin-top: 0px;}
