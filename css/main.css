@@ -468,6 +468,9 @@ input[type=range]:focus::-ms-fill-upper {
  .single_post .might_like.trending_posts:after{
   display: none;
  }
+ .single_post .might_like ul li{
+  width: 100%;
+ }
 }
 @media (max-width:480px) {
   .grid-item { width: 100%; }
