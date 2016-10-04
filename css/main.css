@@ -466,6 +466,12 @@ input[type=range]:focus::-ms-fill-upper {
   .footer{
         width: 97.3%;
   }
+   .single_post .might_like ul li{
+  width: 100%;
+ }
+ .might_like {
+    margin-bottom: 40%;
+}
 }
 @media (max-width:604px) {
  .single_post .might_like.trending_posts:after{
@@ -489,6 +495,14 @@ input[type=range]:focus::-ms-fill-upper {
   .grid-item { width: 100%; }
   .left_bar { width: 70%; }
   .cs-select ul { max-height: 300px; }
+}
+@media (max-width:420px) {
+.single_post .prev_next_post ul li a{
+  font-size: 10px;
+}
+.single_post .post_view {
+    padding: 20px 17% 20px 10%;
+}
 }
 /*End Break Queries*/
 
