@@ -169,9 +169,9 @@ a:hover, a:focus, a:active { text-decoration: none; color: #fff; outline: none; 
   .single_post  .single_post_img { height: 500px; background-size: contain; background-position: center center; background-repeat: no-repeat; }
   .single_post .single_post_text p { padding: 0px; margin: 0px; color: #686868; font-family: 'robotoregular'; }
   .single_post .slick-slide img { width: 100%; height: 200px; padding: 10px; text-align: justify; }
-  .single_post .slick-prev { background-color: transparent; position: absolute; right: -40px; z-index: 9; border-radius: 50%; width: 30px; height: 30px; outline: none; border: none; color: transparent; top: 50%; }
+  .single_post .slick-prev { background-color: transparent; position: absolute; right: -40px; z-index: 9; border-radius: 50%; width: 30px; height: 30px; outline: none; border: none; color: transparent; top: 40%; }
   .single_post  .slick-prev:after { font-size: 30px; position: absolute; content: ''; content: '\f3d3'; font-family: 'ionicons'; top: 14%; color: #42abfb; left: 35%; }
-  .single_post .slick-next { background-color: transparent; position: absolute; left: -50px; z-index: 9; outline: none; border-radius: 50%; width: 30px; height: 30px; border: none; color: transparent; top: 50%; }
+  .single_post .slick-next { background-color: transparent; position: absolute; left: -50px; z-index: 9; outline: none; border-radius: 50%; width: 30px; height: 30px; border: none; color: transparent; top: 40%; }
   .single_post .slick-next:after { font-size: 30px; position: absolute; content: ''; content: '\f3d2'; font-family: 'ionicons'; top: 14%; color: #42abfb; left: 4 5%; }
   .single_post .single_post_gallery h4 { font-family: 'robotobold'; color: #42abfb; letter-spacing: 1px; text-transform: uppercase; padding: 10px 0px; }
   .single_post .single_post_gallery span { line-height: 70px; color: #bbbbbb; font-size: 18px; letter-spacing: 1px; }
