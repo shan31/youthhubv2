@@ -452,6 +452,12 @@ input[type=range]:focus::-ms-fill-upper {
  .single_post .might_like.trending_posts:after{
   display: none;
  }
+ .single_post .single_post_text p{
+  text-align: justify;
+    word-break: normal;
+    word-wrap: normal;
+    word-spacing: -5px;
+ }
  .right_section_inner { padding: 0px; }
  .left_bar { z-index: 9; display: none; width: 50%; overflow: auto; }
  .right_section { padding: 0px; }
