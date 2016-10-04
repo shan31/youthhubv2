@@ -407,7 +407,32 @@ input[type=range]:focus::-ms-fill-upper {
     background: transparent;
     display: none;
 }
-  /*End Break Points
+ 
+@media (max-width:768px) {
+   .right_section .search_filter{margin-top: 0px;}
+  .right_section p span{    bottom: -15px;}
+ }
+ @media (max-width:767px) {
+  
+ .right_section_inner { padding: 0px; }
+ .left_bar { z-index: 9; display: none; width: 50%; overflow: auto; }
+ .right_section { padding: 0px; }
+ .mob_header { background-color: #1a2a3a; height: 80px; }
+ .mob_header a { padding: 20px 10px; }
+  .mob_header ul { margin-left: 0px; margin-bottom: 0px; height: 80px; display: table; }
+  .mob_header ul li {  padding: 0px; display: table-cell; width: 60px; height: 100%; text-align: center; vertical-align: middle; }
+   .mob_header ul li:after { position: absolute; content: ''; width: 1px; top: -5px; left: 0px; bottom: 0px; background-color: #3f4c5a; }
+   .mob_header i { color: #fff; font-size: 22px; }
+  .left_bar a.logo_text img { width: 60px; }
+  .right_section .search_filter input { background-position: 17px 17px; padding-left: 25px; }
+}
+@media (max-width:480px) {
+  .grid-item { width: 100%; }
+  .left_bar { width: 70%; }
+  .cs-select ul { max-height: 300px; }
+}
+/*End Break Queries*/
+
 
 
 
