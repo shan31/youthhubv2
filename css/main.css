@@ -217,6 +217,14 @@ a:hover, a:focus, a:active { text-decoration: none; color: #fff; outline: none; 
     position: absolute;
     bottom: 0px;
     }
+    .single_post .might_like.trending_posts  ul li  a h4{
+      color: #686868;
+    overflow: hidden;
+    display: -webkit-box;
+    padding: 0px;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    }
     .might_like{margin-bottom: 40px;}
     .footer{
           position: fixed;
