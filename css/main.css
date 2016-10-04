@@ -485,6 +485,14 @@ input[type=range]:focus::-ms-fill-upper {
       padding-left: 0px;
     padding-right: 0px;
 }
+  .single_post .slick-prev{
+    right: 5px;
+    top: 40%;
+  }
+  .single_post .slick-next{
+        left: 0px;
+            top: 40%;
+  }
 }
 @media (max-width:604px) {
  .single_post .might_like.trending_posts:after{
@@ -509,14 +517,7 @@ input[type=range]:focus::-ms-fill-upper {
   .grid-item { width: 100%; }
   .left_bar { width: 70%; }
   .cs-select ul { max-height: 300px; }
-  .single_post .slick-prev{
-    right: 5px;
-    top: 40%;
-  }
-  .single_post .slick-next{
-        left: 0px;
-            top: 40%;
-  }
+
 }
 @media (max-width:420px) {
 .single_post .prev_next_post ul li a{
