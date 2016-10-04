@@ -411,7 +411,7 @@ input[type=range]:focus::-ms-fill-upper {
   .single_post .might_like ul li{width: 50%;}
   .single_post  .single_post_img{height: 250px;}
   .single_post .post_view{    padding: 20px 10% 20px 10%;}
-  .single_post .might_like.trending_posts .trending_posts_section{
+ .single_post .might_like.trending_posts .trending_posts_section{
     padding: 13% 0px 0px 0px;
   }
  }
