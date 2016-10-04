@@ -449,7 +449,9 @@ input[type=range]:focus::-ms-fill-upper {
   }
  }
  @media (max-width:767px) {
-.single_post .might_like.trending_posts  ul li
+ .single_post .might_like.trending_posts:after{
+  display: none;
+ }
  .right_section_inner { padding: 0px; }
  .left_bar { z-index: 9; display: none; width: 50%; overflow: auto; }
  .right_section { padding: 0px; }
