@@ -493,6 +493,9 @@ input[type=range]:focus::-ms-fill-upper {
         left: 0px;
             top: 40%;
   }
+  .single_post .slick-slide img{
+    height: 500px;
+  }
 }
 @media (max-width:604px) {
  .single_post .might_like.trending_posts:after{
@@ -523,6 +526,9 @@ input[type=range]:focus::-ms-fill-upper {
 .single_post .prev_next_post ul li a{
   font-size: 10px;
 }
+ .single_post .slick-slide img{
+    height: 300px;
+  }
 
 }
 /*End Break Queries*/
