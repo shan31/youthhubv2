@@ -516,7 +516,6 @@ input[type=range]:focus::-ms-fill-upper {
     width: 100%;
     padding: 0px;
     float: none;
-    margin: 0 auto;
 }
 .single_post .might_like.trending_posts  ul {
   width: 95%;
