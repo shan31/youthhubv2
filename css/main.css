@@ -433,7 +433,12 @@ input[type=range]:focus::-ms-fill-upper {
 @media (max-width:768px) {
    .right_section .search_filter{margin-top: 0px;}
   .right_section p span{    bottom: -15px;}
-  
+  .single_post .post_view h1{
+        font-size: 26px;
+  }
+  .single_post .might_like.trending_posts  ul li{
+    padding: 0px;
+  }
  }
  @media (max-width:767px) {
 
