@@ -410,6 +410,7 @@ input[type=range]:focus::-ms-fill-upper {
  @media (max-width:1024px) {
   .single_post .might_like ul li{width: 50%;}
   .single_post  .single_post_img{height: 250px;}
+  .single_post .post_view{    padding: 20px 10% 20px 10%;}
  }
 @media (max-width:768px) {
    .right_section .search_filter{margin-top: 0px;}
