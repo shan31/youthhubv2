@@ -471,6 +471,13 @@ input[type=range]:focus::-ms-fill-upper {
  .single_post .might_like ul li{
   width: 100%;
  }
+ .single_post .might_like.trending_posts .trending_posts_section {
+    padding: 13% 0px 0px 0px;
+    width: 75%;
+    padding: 0px;
+    float: none;
+    margin: 0 auto;
+}
 }
 @media (max-width:480px) {
   .grid-item { width: 100%; }
