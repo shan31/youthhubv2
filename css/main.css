@@ -454,6 +454,11 @@ input[type=range]:focus::-ms-fill-upper {
   .left_bar a.logo_text img { width: 60px; }
   .right_section .search_filter input { background-position: 17px 17px; padding-left: 25px; }
 }
+@media (max-width:603px) {
+ .single_post .might_like.trending_posts{
+  border: none;
+ }
+}
 @media (max-width:480px) {
   .grid-item { width: 100%; }
   .left_bar { width: 70%; }
