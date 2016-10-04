@@ -473,10 +473,13 @@ input[type=range]:focus::-ms-fill-upper {
  }
  .single_post .might_like.trending_posts .trending_posts_section {
     padding: 13% 0px 0px 0px;
-    width: 75%;
+    width: 85%;
     padding: 0px;
     float: none;
     margin: 0 auto;
+}
+.single_post .might_like.trending_posts  ul {
+  width: 95%;
 }
 }
 @media (max-width:480px) {
