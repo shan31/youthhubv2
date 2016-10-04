@@ -478,6 +478,13 @@ input[type=range]:focus::-ms-fill-upper {
  .might_like {
     margin-bottom: 40%;
 }
+.single_post .post_view {
+    padding: 20px 3% 20px 3%;
+}
+.single_post .might_like ul li:nth-child(1n+0){
+      padding-left: 0px;
+    padding-right: 0px;
+}
 }
 @media (max-width:604px) {
  .single_post .might_like.trending_posts:after{
@@ -486,9 +493,10 @@ input[type=range]:focus::-ms-fill-upper {
  .single_post .might_like ul li{
   width: 100%;
  }
+
  .single_post .might_like.trending_posts .trending_posts_section {
     padding: 13% 0px 0px 0px;
-    width: 85%;
+    width: 100%;
     padding: 0px;
     float: none;
     margin: 0 auto;
