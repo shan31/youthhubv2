@@ -514,9 +514,7 @@ input[type=range]:focus::-ms-fill-upper {
 .single_post .prev_next_post ul li a{
   font-size: 10px;
 }
-.single_post .post_view {
-    padding: 20px 17% 20px 10%;
-}
+
 }
 /*End Break Queries*/
 
