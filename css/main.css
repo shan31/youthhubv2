@@ -520,6 +520,9 @@ input[type=range]:focus::-ms-fill-upper {
 .single_post .might_like.trending_posts  ul {
   width: 95%;
 }
+.single_post .slick-slide img{
+    height: 300px;
+  }
 }
 @media (max-width:480px) {
   .grid-item { width: 100%; }
