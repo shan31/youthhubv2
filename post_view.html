@@ -15,6 +15,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" type="text/css" href="css/animate.css" />
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.css" />
@@ -329,6 +330,31 @@
     }
   ]
     });
+    </script>
+    <script type="text/javascript">
+               $(document).ready(function(){
+    
+    $('div').bind('scroll',chk_scroll);
+});
+
+       function chk_scroll(e)
+{
+    var elem = $(e.currentTarget);
+    if (elem[0].scrollHeight - elem.scrollTop() == elem.outerHeight()) 
+    {
+       $('.footer').css("display","table");
+       $('.footer').addClass('animated fadeInUp');
+       console.log("bottom");
+    }
+    else{
+         $('.footer').css("display","none");
+         $('.footer').toggleClass('animated fadeInUp');
+
+    }
+
+}
+
+
     </script>
 </body>
 

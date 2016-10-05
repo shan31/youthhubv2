@@ -119,3 +119,5 @@
         $(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
 
        /*----------  END  YOUTUBE API FUNCTION  ----------*/
+
+       /*----------  Scroll bottom  ----------*/
