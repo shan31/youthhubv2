@@ -114,7 +114,7 @@ a:hover, a:focus, a:active { text-decoration: none; color: #fff; outline: none; 
   .filter_cat_mob { display: none; }
   .mob_filter .mob_sort ul li label { color: #8c8c8c; font-weight: 300; letter-spacing: 1px; font-family: 'robotoregular'; }
   .mob_filter .filter_cat_mob hr { border-color: #ccc; }
-  .mob_filter { display: table; }
+  .mob_filter { display: table;     background-color: #558ae3;}
   .mob_filter a h4 { letter-spacing: 2px; }
   .mob_filter a.filter_tags { text-align: center; width: 75px; height: 30px; line-height: 28px; position: relative; border-radius: 20px; display: table-cell; margin: 10px 0px; border: 1px solid #fff; vertical-align: middle; font-family: 'robotoregular'; letter-spacing: 1px; }
   .mob_filter_white { background-color: #fff; }
@@ -241,11 +241,12 @@ a:hover, a:focus, a:active { text-decoration: none; color: #fff; outline: none; 
   .single_post .might_like.trending_posts:after { position: absolute; content: ''; width: 1px; top: 40px; left: 0px; bottom: 0px; background: #ccc; }
   .single_post .might_like.trending_posts  ul li { width: 100%; padding: 0px 10px 5px; height: 270px; }
   .single_post .might_like.trending_posts  ul li img { height: 150px; width: 100%; margin-bottom: 10px; }
-
+  .search_filter .ui.multiple.dropdown>.text { padding: 0px 0px 0px 12%; }  
   /*End Individual Post*/
 
   /*Begin Media Queries*/
   @media (max-width:1024px) {
+    .search_filter .ui.multiple.dropdown>.text { padding: 0px 0px 0px  25%; } 
     .single_post .might_like ul li { width: 50%; }
     .single_post  .single_post_img { height: 250px; }
     .single_post .might_like.trending_posts  ul li a h4 { display: -webkit-box; padding: 0px; -webkit-line-clamp: 3; -webkit-box-orient: vertical; }
@@ -262,7 +263,7 @@ a:hover, a:focus, a:active { text-decoration: none; color: #fff; outline: none; 
     .mob_header .search { width: 323px; height: 80px; z-index: 99; border: none; max-width: 0; padding: 15px; transition: all .5s ease; position: absolute; box-sizing: border-box; opacity: 0; border-bottom: 1px solid #fff; font-size: 24px; left: 0px; top: 0px; }
   }
   @media (max-width:767px) {
-    .single_post .back_root { padding: 0px 0px 10px 0%; }
+    .single_post .back_root { padding: 0px 0px 0px 0%; }
     .single_post .might_like.trending_posts:after { display: none; }
     .single_post .single_post_text p { text-align: justify; word-break: normal; word-wrap: normal; word-spacing: -5px; }
     .right_section_inner { padding: 0px; }
