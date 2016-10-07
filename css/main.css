@@ -134,7 +134,7 @@ a:hover, a:focus, a:active { text-decoration: none; color: #fff; outline: none; 
   .search_filter .ui.fluid.dropdown>.dropdown.icon { display: none; }
   .delete.icon { position: relative; }
   i.icon.cancel:before, i.icon.close:before, i.icon.delete:before, i.icon.x:before { content: "\f404"; font-family: 'ionicons'; font-size: 20px; line-height: 10px; position: absolute; right: -12px; font-weight: 800; top: 8px; }
-  .search.expanded { max-width: 700px; opacity: 1; background: #1a2a3a; color: #fff; left: 0px; top: 0px; width: 82%; }
+  .mob_header .search.expanded { max-width: 700px; opacity: 1; background: #1a2a3a; color: #fff; left: 0px; top: 0px; width: 82%; }
   .change_i { z-index: 999; position: absolute; top: 25px; }
   input.search::-webkit-input-placeholder { color: #fff; font-weight: 300; font-size: 24px; letter-spacing: 1px; text-indent: 24px; }
   input.search:-moz-placeholder { color: #fff; font-weight: 300; font-size: 24px; letter-spacing: 1px; text-indent: 24px; }
@@ -261,7 +261,8 @@ a:hover, a:focus, a:active { text-decoration: none; color: #fff; outline: none; 
     .right_section p span { bottom: -15px; }
     .single_post .post_view h1 { font-size: 26px; }
     .single_post .might_like.trending_posts  ul li { padding: 0px; }
-    .search { width: 323px; height: 80px; z-index: 99; border: none; max-width: 0; padding: 15px; transition: all .5s ease; position: absolute; box-sizing: border-box; opacity: 0; border-bottom: 1px solid #fff; font-size: 24px; }
+   .mob_header .search { width: 323px; height: 80px; z-index: 99; border: none; max-width: 0; padding: 15px; transition: all .5s ease; position: absolute; box-sizing: border-box; opacity: 0; border-bottom: 1px solid #fff; font-size: 24px;     left: 0px;
+    top: 0px;}
   }
   @media (max-width:767px) {
     .single_post .back_root { padding: 0px 0px 10px 0%; }

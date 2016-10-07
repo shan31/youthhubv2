@@ -11,7 +11,7 @@
            }, 500);
        });
        $('.ion-ios-search-strong').on('click', function() {
-           $('.search').toggleClass('expanded');
+           $('.mob_header .search').toggleClass('expanded');
            $(this).toggleClass('change_i');
        }); /*----------  Subsection comment block  ----------*/
 
@@ -65,9 +65,9 @@
 
        /*----------  YOUTUBE API FUNCTION  ----------*/
        var player, time_update_interval = 0;
-       var vid = $('.post_img iframe').attr('src').match(/[^/]*$/)[0];
+       // var vid = $('.post_img iframe').attr('src').match(/[^/]*$/)[0];
 
-       console.log(vid);
+       // console.log(vid);
 
        function onYouTubeIframeAPIReady() {
            var vid = $('.post_img iframe').attr('src').match(/[^/]*$/)[0];
