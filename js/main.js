@@ -93,31 +93,69 @@
        }
 
        function initialize() {
-          
+
        }
 
        $('#play').on(' click ', function() {
-      
+
            player.playVideo();
            $(this).hide();
            $('#pause').show();
            $('#volume-input').show();
        });
- 
+
        $('#pause').on(' click ', function() {
            player.pauseVideo();
            $(this).hide();
            $('#play').show();
-          
-            $('#volume-input').hide();
-       });
-       $('#volume-input').on('change', function () { player.setVolume($(this).val()); }
-);
-// 
 
-       $(".group2").colorbox({rel:'group2', transition:"fade"});
-        $(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
+           $('#volume-input').hide();
+       });
+       $('#volume-input').on('change', function() {
+           player.setVolume($(this).val());
+       });
+       // 
+
+       $(".group2").colorbox({
+           rel: 'group2',
+           transition: "fade"
+       });
+       $(".youtube").colorbox({
+           iframe: true,
+           innerWidth: 640,
+           innerHeight: 390
+       });
 
        /*----------  END  YOUTUBE API FUNCTION  ----------*/
 
-       /*----------  Scroll bottom  ----------*/
+
+       /*----------  Semantic Dropdown  ----------*/
+       $(function() {
+           $('.ui.multiple.dropdown').dropdown({
+               maxSelections: 6
+           });
+       });
+       /*----------  End  comment block  ----------*/
+
+
+
+       /*----------  Mobile Filter comment block  ----------*/
+       $(".filter_tags").click(function() {
+           $('.filter_cat_mob').toggle();
+       });
+       $(".filter_tags").click(function() {
+           $(this).text(function(i, v) {
+               return v === 'Filters' ? 'Close' : 'Filters';
+           });
+       });
+       $(".filter_tags").click(function() {
+           $(".mob_filter").toggleClass('mob_filter_white');
+       });
+       var mobilecategory = $('.mob_filter .mob_category ul li a');
+       mobilecategoryclose = $('.mob_filter .mob_category ul li a span');
+       var $this = $(this);
+       mobilecategory.click(function() {
+           $(this).toggleClass('active');
+           $("span", this).toggleClass('active');
+       });
+       /*----------  End Filter comment block  ----------*/

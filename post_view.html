@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.css" />
     <link rel="stylesheet" type="text/css" href="css/cs-select.css" />
     <link rel="stylesheet" type="text/css" href="css/cs-skin-border.css" />
+     <link rel="stylesheet" href="css/dropdown.min.css">
+     <link rel="stylesheet" href="css/transition.css">
     <link rel="stylesheet" href="css/main.css">
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
@@ -90,9 +92,29 @@
                                 <h3><i class="ion-chevron-left"></i> Discover</h3></a>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 search_filter">
-                            <div class="form-group">
+                        <!--     <div class="form-group">
                                 <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Search">
-                            </div>
+                            </div> -->
+                             <div class="ui fluid multiple search selection dropdown">
+                                                <input type="hidden" name="tags">
+                                                <i class="dropdown icon"></i>
+                                                <input class="search" tabindex="0">
+                                                <div class="default text">Search...</div>
+                                                <div class="menu" tabindex="-1">
+                                                    <div class="item" data-value="html">HTML</div>
+                                                    <div class="item" data-value="css">CSS</div>
+                                                    <div class="item" data-value="design">Graphic Design</div>
+                                                    <div class="item" data-value="javascript">Javascript</div>
+                                                    <div class="item" data-value="angular">Angular</div>
+                                                    <div class="item" data-value="ember">Ember</div>
+                                                    <div class="item" data-value="node">NodeJS</div>
+                                                    <div class="item" data-value="python">Python</div>
+                                                    <div class="item" data-value="rails">Rails</div>
+                                                    <div class="item" data-value="ruby">Ruby</div>
+                                                    <div class="item" data-value="ui">UI Design</div>
+                                                    <div class="item" data-value="ux">User Experience</div>
+                                                </div>
+                                            </div>
                         </div>
                     </div>
                     <div class="col-xs-12">
@@ -288,6 +310,8 @@
     <script src="js/vendor/jquery.colorbox-min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.1/isotope.pkgd.min.js"></script>
      <script src="js/vendor/imagesloaded.pkgd.min.js"></script>
+     <script src="js/vendor/dropdown.min.js"></script>
+      <script src="js/vendor/transition.min.js"></script>
     <script src="js/vendor/classie.js"></script>
     <script src="js/vendor/selectFx.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
@@ -357,8 +381,13 @@
     }
 
 }
-
-
+    </script>
+    <script type="text/javascript">
+    $(function() {
+        $('.ui.multiple.dropdown').dropdown({
+            maxSelections: 6
+        });
+    });
     </script>
 </body>
 

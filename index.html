@@ -932,41 +932,6 @@ The beautiful Te Puna Wanaka at the Ara Institute of Canterbury, home of CDANZ T
     <script src="js/vendor/jquery.colorbox-min.js"></script>
     <script src="https://www.youtube.com/iframe_api"></script>
     <script src="js/main.js"></script>
-    <script type="text/javascript">
-    $('.bxslider').bxSlider({
-        auto: true,
-        mode: 'fade',
-        autoControls: true
-    });
-    </script>
-    <script type="text/javascript">
-    $(function() {
-        $('.ui.multiple.dropdown').dropdown({
-            maxSelections: 6
-        });
-    });
-    </script>
-    <script type="text/javascript">
-     $(".filter_tags").click(function() {
-        $('.filter_cat_mob').toggle();
-      });
-    $(".filter_tags").click(function() {
-        $(this).text(function(i, v) {
-            return v === 'Filters' ? 'Close' : 'Filters'
-        });
-    });
-    $(".filter_tags").click(function() {
-        $(".mob_filter").toggleClass('mob_filter_white');
-    });
-    var mobilecategory = $('.mob_filter .mob_category ul li a');
-    mobilecategoryclose = $('.mob_filter .mob_category ul li a span');
-    var $this = $(this);
-    mobilecategory.click(function() {
-        $(this).toggleClass('active');
-        $("span", this).toggleClass('active');
-    });
-  
-    </script>
 </body>
 
 </html>
