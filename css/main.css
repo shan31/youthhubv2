@@ -245,7 +245,7 @@ a:hover, a:focus, a:active { text-decoration: none; color: #fff; outline: none; 
   /*End Individual Post*/
 
 /*BEGIN Directory*/
-.right_section.directory { background-image: url('../img/bg3.png');  }
+.right_section.directory { background-image: url('../img/bg4.png');  }
 .directory .directory_single{    padding: 20px;background: rgba(71, 122, 194, 1); background: -moz-linear-gradient(top, rgba(71, 122, 194, 1) 0%, rgba(71, 122, 194, 0.5) 100%); background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(71, 122, 194, 1)), color-stop(100%, rgba(71, 122, 194, 0.5))); background: -webkit-linear-gradient(top, rgba(71, 122, 194, 1) 0%, rgba(71, 122, 194, 0.5) 100%); background: -o-linear-gradient(top, rgba(71, 122, 194, 1) 0%, rgba(71, 122, 194, 0.5) 100%); background: -ms-linear-gradient(top, rgba(71, 122, 194, 1) 0%, rgba(71, 122, 194, 0.5) 100%); background: linear-gradient(to bottom, rgba(71, 122, 194, 1) 0%, rgba(71, 122, 194, 0.5) 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#477ac2', endColorstr='#477ac2', GradientType=0);}
 .directory ul{margin: 0px;}
 .directory ul li{ width: 50%;padding-bottom: 10px;float: left;}
