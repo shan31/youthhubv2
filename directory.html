@@ -1,0 +1,440 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/full-slider.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css" />
+    <link rel="stylesheet" type="text/css" href="css/cs-select.css" />
+    <link rel="stylesheet" type="text/css" href="css/cs-skin-border.css" />
+    <link rel="stylesheet" href="css/dropdown.min.css">
+    <link rel="stylesheet" href="css/transition.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+    <div id="loading">
+        <img id="loading-image" src="img/Preloader_3.gif" alt="Loading..." />
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-condensed">
+        <div class="container-fluid col-condensed">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-condensed">
+                <div class="col-lg-2 col-md-2  col-sm-3 col-xs-5 left_bar">
+                    <div class="col-lg-12 col-md-12 col-sm12 col-xs-12 col-condensed">
+                        <a href="javascript::" class="logo_text"><img class="img-responsive" src="img/logo.png" alt="logo">Welcome to
+                            <br> Youth Hub</a>
+                        <ul class="list-unstyled text-center">
+                            <li>
+                                <select class="cs-select cs-skin-border filters">
+                                    <option value="" disabled selected>Select Region</option>
+                                    <option value="">Northland</option>
+                                    <option value="">Auckland </option>
+                                    <option value=""> Waikato</option>
+                                    <option value="">Bay of Plenty</option>
+                                    <option value="">Gisborne </option>
+                                    <option value="">Hawke's Bay</option>
+                                    <option value="">Wellington</option>
+                                    <option value=""> Manawatu-Whanganui</option>
+                                    <option value=""> Tasman</option>
+                                    <option value=""> Nelson </option>
+                                    <option value=""> Marlborough </option>
+                                    <option value="">West Coast</option>
+                                    <option value=""> Canterbury</option>
+                                    <option value="">Otago</option>
+                                    <option value="">Southland</option>
+                                </select>
+                            </li>
+                            <li><a class="" href="javascript::">DISCOVER</a></li>
+                            <li><a class="" href="javascript::">Directory</a></li>
+                            <li><a class="" href="javascript::">JOBS</a></li>
+                            <li><a class="" href="javascript::">WHATS ON</a></li>
+                            <li><a class="" href="javascript::">ABOUT</a></li>
+                            <li><a class="" href="javascript::">CONTACT US</a></li>
+                            <li><a class="" href="javascript::">SIGN UP</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Right Section  -->
+                <div class="col-lg-10 col-md-10 col-sm-9 col-xs-12 right_section directory">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 right_section_inner">
+                        <div class=" hidden-lg hidden-md hidden-sm visible-xs col-xs-12 col-condensed mob_header">
+                            <a href="javascript::" class="pull-left"><img class="img-responsive" src="img/header_logo.png" alt="logo"></a>
+                            <ul class="list-inline  pull-right">
+                                <li>
+                                    <i class="ion-ios-search-strong" aria-hidden="true"></i>
+                                    <input class="search" type="search" placeholder="Search" />
+                                </li>
+                                <li>
+                                    <i class="ion-navicon"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-11 col-md-11 col-sm-11 col-xs-11 col-condensed hidden-xs">
+                            <p>Here youth can create their career journey. Showcase experiences and training. Connect with events, employers, educators and training providers. <span>Hide<i class="ion-ios-close-empty"></i></span></p>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-condensed  ">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-condensed search_filter">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-condensed hidden-xs">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-condensed">
+                                        <div class="form-group">
+                                            <!--    <input type="text"class="form-control"id="exampleInputEmail1"placeholder="Search"> -->
+                                            <div class="ui fluid multiple search selection dropdown">
+                                                <input type="hidden" name="tags">
+                                                <i class="dropdown icon"></i>
+                                                <input class="search" tabindex="0">
+                                                <div class="default text">Search...</div>
+                                                <div class="menu" tabindex="-1">
+                                                    <div class="item" data-value="html">HTML</div>
+                                                    <div class="item" data-value="css">CSS</div>
+                                                    <div class="item" data-value="design">Graphic Design</div>
+                                                    <div class="item" data-value="javascript">Javascript</div>
+                                                    <div class="item" data-value="angular">Angular</div>
+                                                    <div class="item" data-value="ember">Ember</div>
+                                                    <div class="item" data-value="node">NodeJS</div>
+                                                    <div class="item" data-value="python">Python</div>
+                                                    <div class="item" data-value="rails">Rails</div>
+                                                    <div class="item" data-value="ruby">Ruby</div>
+                                                    <div class="item" data-value="ui">UI Design</div>
+                                                    <div class="item" data-value="ux">User Experience</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col-condensed">
+                                        <select class="cs-select cs-skin-border filters">
+                                            <option value="" disabled selected>Sort by Most Recent</option>
+                                            <option value="*">Arts</option>
+                                            <option value=".metal">Agriculture</option>
+                                            <option value=".transition">Animals</option>
+                                            <option value=".alkali">Building</option>
+                                            <option value="Career">Career</option>
+                                            <option value="Courses">Courses</option>
+                                            <option value="Community">Community</option>
+                                            <option value="Design">Design</option>
+                                            <option value="Education">Education</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col-condensed">
+                                        <select class="cs-select cs-skin-border">
+                                            <option value="" disabled selected>Sort by Most Recent</option>
+                                            <option value="myorder:asc">Top Views</option>
+                                            <option value="myorder:desc">Most Recent</option>
+                                            <option value="linkedin">Popular Views</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="hidden-lg hidden-md hidden-sm col-xs-12 mob_filter">
+                                    <div class="col-xs-12 col-condensed">
+                                        <a href="javascript:void(0)" class="pull-left"><h4> <i class="ion-ios-arrow-back"></i>  Discover</h4></a>
+                                        <a href="javascript:void(0)" class="pull-right filter_tags">Filters</a>
+                                        <div class="col-xs-12 col-condensed filter_cat_mob">
+                                            <div class="col-xs-12 mob_sort col-condensed">
+                                                <h4>Sortby:</h4>
+                                                <ul class="list-unstyled">
+                                                    <li>
+                                                        <div>
+                                                            <input type="radio" id="radio01" name="radio">
+                                                            <label for="radio01"><span></span>Top Views</label>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div>
+                                                            <input type="radio" id="radio02" name="radio" />
+                                                            <label for="radio02"><span></span>Most Recent</label>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                                <hr>
+                                            </div>
+                                            <div class="col-xs-12 mob_category col-condensed">
+                                                <h4>Select Categories:</h4>
+                                                <ul class="list-unstyled">
+                                                    <li>
+                                                        <a class="btn btn-default" href="javascript:void(0)">HTML <span><i class="ion-ios-close-empty"></i></span></a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="btn btn-default" href="javascript:void(0)">CSS <span><i class="ion-ios-close-empty"></i></span></a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="btn btn-default" href="javascript:void(0)">Graphic Design <span><i class="ion-ios-close-empty"></i></span></a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="btn btn-default" href="javascript:void(0)">Javascript <span><i class="ion-ios-close-empty"></i></span></a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="btn btn-default" href="javascript:void(0)">Angular <span><i class="ion-ios-close-empty"></i></span></a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="btn btn-default" href="javascript:void(0)">Ember <span><i class="ion-ios-close-empty"></i></span></a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="btn btn-default" href="javascript:void(0)">NodeJS <span><i class="ion-ios-close-empty"></i></span></a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="btn btn-default" href="javascript:void(0)">Rails <span><i class="ion-ios-close-empty"></i></span></a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="btn btn-default" href="javascript:void(0)">User Experience <span><i class="ion-ios-close-empty"></i></span></a>
+                                                    </li>
+                                                </ul>
+                                                <hr>
+                                            </div>
+                                            <div class="col-xs-12 col-condensed mob_apply_filter">
+                                                <a href="javascript:void(0)" class="pull-left">Clear Filter</a>
+                                                <a href="javascript:void(0)" class="pull-right">Apply Filter</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12  directory col-condensed">
+                                <div class="col-xs-12  col-condensed">
+                                    <ul class="list-inline">
+                                        <li>
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 directory_single">
+                                                <span class="bookmark"></span>
+                                                <div class="col-xs-12 col-condensed">
+                                                    <h4>Cotton On Rotorua</h4>
+                                                    <p>In 1991 our first retail store opened in Geelong. From these humble beginnings, we’ve taken our spirit to the globe, making sure Nigel’s vision...</p>
+                                                    <div class="read_button">
+                                                        <a href="javascript:void(0)" class="btn btn-default">Read More</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-12 col-condensed directory_list">
+                                                    <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 col-condensed directory_img">
+                                                        <img src="img/directory_profile1.png" class="img-responsive">
+                                                    </div>
+                                                    <div class="col-xs-12 col-condensed">
+                                                        <ul class="list-unstyled list_details">
+                                                            <li><i class="ion-android-pin"></i>Rotorua</li>
+                                                            <li><i class="ion-at"></i>jessetamm@outlook.com</li>
+                                                            <li><i class="ion-ios-telephone"> </i>XXX XXXXXX</li>
+                                                            <li><i class="ion-ios-home"></i> www.cottonon.co.nz</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 directory_single">
+                                            <span class="bookmark"></span>
+                                                <div class="col-xs-12 col-condensed">
+                                                    <h4>Cotton On Rotorua</h4>
+                                                    <p>In 1991 our first retail store opened in Geelong. From these humble beginnings, we’ve taken our spirit to the globe, making sure Nigel’s vision...</p>
+                                                    <div class="read_button">
+                                                        <a href="javascript:void(0)" class="btn btn-default">Read More</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-12 col-condensed directory_list">
+                                                    <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 col-condensed directory_img">
+                                                        <img src="img/directory_profile5.png" class="img-responsive">
+                                                    </div>
+                                                    <div class="col-xs-12 col-condensed">
+                                                        <ul class="list-unstyled list_details">
+                                                            <li><i class="ion-android-pin"></i>Rotorua</li>
+                                                            <li><i class="ion-at"></i>jessetamm@outlook.com</li>
+                                                            <li><i class="ion-ios-telephone"> </i>XXX XXXXXX</li>
+                                                            <li><i class="ion-ios-home"></i> www.cottonon.co.nz</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 directory_single">
+                                                <div class="col-xs-12 col-condensed">
+                                                    <h4>Cotton On Rotorua</h4>
+                                                    <p>In 1991 our first retail store opened in Geelong. From these humble beginnings, we’ve taken our spirit to the globe, making sure Nigel’s vision...</p>
+                                                    <div class="read_button">
+                                                        <a href="javascript:void(0)" class="btn btn-default">Read More</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-12 col-condensed directory_list">
+                                                    <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 col-condensed directory_img">
+                                                        <img src="img/directory_profile2.png" class="img-responsive">
+                                                    </div>
+                                                    <div class="col-xs-12 col-condensed">
+                                                        <ul class="list-unstyled list_details">
+                                                            <li><i class="ion-android-pin"></i>Rotorua</li>
+                                                            <li><i class="ion-at"></i>jessetamm@outlook.com</li>
+                                                            <li><i class="ion-ios-telephone"> </i>XXX XXXXXX</li>
+                                                            <li><i class="ion-ios-home"></i> www.cottonon.co.nz</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 directory_single">
+
+                                                <div class="col-xs-12 col-condensed">
+                                                    <h4>Cotton On Rotorua</h4>
+                                                    <p>In 1991 our first retail store opened in Geelong. From these humble beginnings, we’ve taken our spirit to the globe, making sure Nigel’s vision...</p>
+                                                    <div class="read_button">
+                                                        <a href="javascript:void(0)" class="btn btn-default">Read More</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-12 col-condensed directory_list">
+                                                    <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 col-condensed directory_img">
+                                                        <img src="img/directory_profile4.png" class="img-responsive">
+                                                    </div>
+                                                    <div class="col-xs-12 col-condensed">
+                                                        <ul class="list-unstyled list_details">
+                                                            <li><i class="ion-android-pin"></i>Rotorua</li>
+                                                            <li><i class="ion-at"></i>jessetamm@outlook.com</li>
+                                                            <li><i class="ion-ios-telephone"> </i>XXX XXXXXX</li>
+                                                            <li><i class="ion-ios-home"></i> www.cottonon.co.nz</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                                                                <li>
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 directory_single">
+                                                <span class="bookmark"></span>
+                                                <div class="col-xs-12 col-condensed">
+                                                    <h4>Cotton On Rotorua</h4>
+                                                    <p>In 1991 our first retail store opened in Geelong. From these humble beginnings, we’ve taken our spirit to the globe, making sure Nigel’s vision...</p>
+                                                    <div class="read_button">
+                                                        <a href="javascript:void(0)" class="btn btn-default">Read More</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-12 col-condensed directory_list">
+                                                    <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 col-condensed directory_img">
+                                                        <img src="img/directory_profile1.png" class="img-responsive">
+                                                    </div>
+                                                    <div class="col-xs-12 col-condensed">
+                                                        <ul class="list-unstyled list_details">
+                                                            <li><i class="ion-android-pin"></i>Rotorua</li>
+                                                            <li><i class="ion-at"></i>jessetamm@outlook.com</li>
+                                                            <li><i class="ion-ios-telephone"> </i>XXX XXXXXX</li>
+                                                            <li><i class="ion-ios-home"></i> www.cottonon.co.nz</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 directory_single">
+                                            <span class="bookmark"></span>
+                                                <div class="col-xs-12 col-condensed">
+                                                    <h4>Cotton On Rotorua</h4>
+                                                    <p>In 1991 our first retail store opened in Geelong. From these humble beginnings, we’ve taken our spirit to the globe, making sure Nigel’s vision...</p>
+                                                    <div class="read_button">
+                                                        <a href="javascript:void(0)" class="btn btn-default">Read More</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-12 col-condensed directory_list">
+                                                    <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 col-condensed directory_img">
+                                                        <img src="img/directory_profile5.png" class="img-responsive">
+                                                    </div>
+                                                    <div class="col-xs-12 col-condensed">
+                                                        <ul class="list-unstyled list_details">
+                                                            <li><i class="ion-android-pin"></i>Rotorua</li>
+                                                            <li><i class="ion-at"></i>jessetamm@outlook.com</li>
+                                                            <li><i class="ion-ios-telephone"> </i>XXX XXXXXX</li>
+                                                            <li><i class="ion-ios-home"></i> www.cottonon.co.nz</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 directory_single">
+                                                <div class="col-xs-12 col-condensed">
+                                                    <h4>Cotton On Rotorua</h4>
+                                                    <p>In 1991 our first retail store opened in Geelong. From these humble beginnings, we’ve taken our spirit to the globe, making sure Nigel’s vision...</p>
+                                                    <div class="read_button">
+                                                        <a href="javascript:void(0)" class="btn btn-default">Read More</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-12 col-condensed directory_list">
+                                                    <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 col-condensed directory_img">
+                                                        <img src="img/directory_profile2.png" class="img-responsive">
+                                                    </div>
+                                                    <div class="col-xs-12 col-condensed">
+                                                        <ul class="list-unstyled list_details">
+                                                            <li><i class="ion-android-pin"></i>Rotorua</li>
+                                                            <li><i class="ion-at"></i>jessetamm@outlook.com</li>
+                                                            <li><i class="ion-ios-telephone"> </i>XXX XXXXXX</li>
+                                                            <li><i class="ion-ios-home"></i> www.cottonon.co.nz</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 directory_single">
+
+                                                <div class="col-xs-12 col-condensed">
+                                                    <h4>Cotton On Rotorua</h4>
+                                                    <p>In 1991 our first retail store opened in Geelong. From these humble beginnings, we’ve taken our spirit to the globe, making sure Nigel’s vision...</p>
+                                                    <div class="read_button">
+                                                        <a href="javascript:void(0)" class="btn btn-default">Read More</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-12 col-condensed directory_list">
+                                                    <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 col-condensed directory_img">
+                                                        <img src="img/directory_profile4.png" class="img-responsive">
+                                                    </div>
+                                                    <div class="col-xs-12 col-condensed">
+                                                        <ul class="list-unstyled list_details">
+                                                            <li><i class="ion-android-pin"></i>Rotorua</li>
+                                                            <li><i class="ion-at"></i>jessetamm@outlook.com</li>
+                                                            <li><i class="ion-ios-telephone"> </i>XXX XXXXXX</li>
+                                                            <li><i class="ion-ios-home"></i> www.cottonon.co.nz</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- <p id="loading1">
+                                        <a href="#"><img src="img/rolling.gif" alt="Loading…" /></a>
+                                    </p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Right Section  -->
+    </div>
+    </div>
+    </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.1/isotope.pkgd.min.js"></script>
+    <script src="js/vendor/jquery.infinitescroll.min.js"></script>
+    <script src="js/vendor/imagesloaded.pkgd.min.js"></script>
+    <script src="js/vendor/classie.js"></script>
+    <script src="js/vendor/selectFx.js"></script>
+    <script src="js/vendor/jquery.fitvids.js"></script>
+    <script src="js/vendor/jquery.bxslider.min.js"></script>
+    <script src="js/vendor/dropdown.min.js"></script>
+    <script src="js/vendor/transition.min.js"></script>
+    <script src="js/vendor/jquery.colorbox-min.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

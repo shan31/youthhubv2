@@ -18,7 +18,7 @@ a:hover, a:focus, a:active { text-decoration: none; color: #fff; outline: none; 
 .form-control:focus { outline: none; box-shadow: none; color: #fff; }
 
 /*Left Bar Section Css*/
-.left_bar { height: 100vh; background-color: #1a2a3a; position: fixed; left: 0px; }
+.left_bar { height: 100vh; background-color: #082F56; position: fixed; left: 0px; }
 .left_bar a.logo_text { color: #fff; text-align: center; font-weight: 500; display: table; position: relative; margin: 0 auto; padding: 10px 0px; letter-spacing: 1px; font-size: 18px; }
 .left_bar a.logo_text img { display: table; margin: 10px auto; }
 .left_bar a.logo_text i { position: absolute; top: 0px; right: -55px; }
@@ -244,6 +244,63 @@ a:hover, a:focus, a:active { text-decoration: none; color: #fff; outline: none; 
   .search_filter .ui.multiple.dropdown>.text { padding: 0px 0px 0px 12%; }  
   /*End Individual Post*/
 
+/*BEGIN Directory*/
+.right_section.directory { background-image: url('../img/bg3.png');  }
+.directory .directory_single{    padding: 20px;background: rgba(71, 122, 194, 1); background: -moz-linear-gradient(top, rgba(71, 122, 194, 1) 0%, rgba(71, 122, 194, 0.5) 100%); background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(71, 122, 194, 1)), color-stop(100%, rgba(71, 122, 194, 0.5))); background: -webkit-linear-gradient(top, rgba(71, 122, 194, 1) 0%, rgba(71, 122, 194, 0.5) 100%); background: -o-linear-gradient(top, rgba(71, 122, 194, 1) 0%, rgba(71, 122, 194, 0.5) 100%); background: -ms-linear-gradient(top, rgba(71, 122, 194, 1) 0%, rgba(71, 122, 194, 0.5) 100%); background: linear-gradient(to bottom, rgba(71, 122, 194, 1) 0%, rgba(71, 122, 194, 0.5) 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#477ac2', endColorstr='#477ac2', GradientType=0);}
+.directory ul{margin: 0px;}
+.directory ul li{ width: 50%;padding-bottom: 10px;float: left;}
+.directory_single h4{color: #fff;}
+.directory_single p{color: #fff;margin: 10px 0px;padding: 0px;}
+.directory ul li:nth-child(odd){padding-left: 0px;}
+.directory ul li:nth-child(even){padding-right: 0px;}
+.directory ul.list_details li{float: none;
+      width: 100%;
+    padding: 0px;
+    line-height: 20px;
+    padding-top: 5px;
+        font-size: 16px;
+    color: #fff;
+}
+.directory .directory_list:after{
+      position: absolute;
+    content: '';
+    width: auto;
+    height: 1px;
+    left: -20px;
+    right: -20px;
+    top: 0px;
+    background-color: rgba(85, 138, 227, 0.95);
+}
+.directory ul.list_details{
+  padding-left: 20px;
+}
+.directory ul.list_details li i{
+  padding-right: 10px;
+  font-size: 18px;
+}
+.directory .directory_list{
+  display: table;
+      padding: 20px 0px 0px;
+
+}
+.directory .directory_list .directory_img{
+  display: table-cell;
+  float: none;
+  vertical-align: bottom;
+}
+.directory .directory_list .directory_img img{
+  width: 100%;
+}
+.bookmark{
+      top: 10px;
+  position: absolute;
+  right: 0px;
+  height: 20px;
+  width: 26px;
+  background-image: url('../img/bookmark.png');
+}
+/*End Directory*/
+
   /*Begin Media Queries*/
   @media (max-width:1024px) {
     .search_filter .ui.multiple.dropdown>.text { padding: 0px 0px 0px  25%; } 
@@ -255,7 +312,17 @@ a:hover, a:focus, a:active { text-decoration: none; color: #fff; outline: none; 
     .single_post .might_like.trending_posts .trending_posts_section { padding: 13% 0px 0px 0px; }
     .single_post .might_like ul li:nth-child(3n+3) { padding-right: 10px; }
   }
+    @media (max-width:960px) {
+      .directory .directory_list .directory_img{
+        float: left;
+      }
+            .directory .directory_list .directory_img img {
+    width: 50%;
+    margin: 0 auto;
+}
+    }
   @media (max-width:800px) {
+
     .right_section .search_filter { margin-top: 0px; }
     .right_section p span { bottom: -15px; }
     .single_post .post_view h1 { font-size: 26px; }
@@ -263,6 +330,7 @@ a:hover, a:focus, a:active { text-decoration: none; color: #fff; outline: none; 
     .mob_header .search { width: 323px; height: 80px; z-index: 99; border: none; max-width: 0; padding: 15px; transition: all .5s ease; position: absolute; box-sizing: border-box; opacity: 0; border-bottom: 1px solid #fff; font-size: 24px; left: 0px; top: 0px; }
   }
   @media (max-width:767px) {
+       .directory ul{padding: 0px 15px;}
     .single_post .back_root { padding: 0px 0px 0px 0%; }
     .single_post .might_like.trending_posts:after { display: none; }
     .single_post .single_post_text p { text-align: justify; word-break: normal; word-wrap: normal; word-spacing: -5px; }
@@ -288,6 +356,7 @@ a:hover, a:focus, a:active { text-decoration: none; color: #fff; outline: none; 
     .single_post .might_like.trending_posts .trending_posts_section { width: 100%; padding: 0px; float: none; margin: 0 auto 40%; }
   }
   @media (max-width:604px) {
+    .directory ul li{width: 100%;}
     .single_post .might_like.trending_posts:after { display: none; }
     .single_post .might_like ul li { width: 100%; }
     .single_post .might_like.trending_posts .trending_posts_section { padding: 13% 0px 0px 0px; width: 100%; padding: 0px; float: none; }
