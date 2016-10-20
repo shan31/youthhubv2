@@ -274,7 +274,7 @@ a:hover, a:focus, a:active { text-decoration: none; color: #fff; outline: none; 
   .jobs .jobs_box_full { margin-bottom: 10px; }
   .jobs .jobs_box_full h6 { color: #fff; margin-top: 0px; text-transform: uppercase; }
   .jobs .jobs_box_full ul { display: table; width: 100%; margin: 0px; padding: 0px; }
-  .jobs .jobs_box_full h3, .jobs .jobs_box_full h5 { color: #E1FF69; margin-top: 0px; }
+  .jobs .jobs_box_full h3, .jobs .jobs_box_full h5 { color: #ffd2aa; margin-top: 0px; }
   .jobs .jobs_box_full p { padding: 0px; margin-top: 0px; }
   .jobs .jobs_box_full p a { padding: 0px; color: #E1FF69; }
   .jobs .jobs_box_full .jobs_box_width_2 { background: rgba(71, 122, 194, 1); background: -moz-linear-gradient(top, rgba(71, 122, 194, 1) 0%, rgba(71, 122, 194, 0.5) 100%); background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(71, 122, 194, 1)), color-stop(100%, rgba(71, 122, 194, 0.5))); background: -webkit-linear-gradient(top, rgba(71, 122, 194, 1) 0%, rgba(71, 122, 194, 0.5) 100%); background: -o-linear-gradient(top, rgba(71, 122, 194, 1) 0%, rgba(71, 122, 194, 0.5) 100%); background: -ms-linear-gradient(top, rgba(71, 122, 194, 1) 0%, rgba(71, 122, 194, 0.5) 100%); background: linear-gradient(to bottom, rgba(71, 122, 194, 1) 0%, rgba(71, 122, 194, 0.5) 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#477ac2', endColorstr='#477ac2', GradientType=0); }
