@@ -35,13 +35,13 @@ a:hover, a:focus, a:active { text-decoration: none; color: #fff; outline: none; 
 
 .right_section { padding: 0px; height: 100%; position: fixed; right: 0px; overflow: auto; background-image: url('../img/bg1.png'); background-size: cover; }
 .right_section_inner { height: 100vh; overflow: auto;    /* background: rgba(36, 108, 224, 1);
-                                background: -moz-linear-gradient(top, rgba(36, 108, 224, 1) 0%, rgba(36, 108, 224, 0.97) 21%, rgba(8, 46, 84, 0.95) 31%, rgba(8, 46, 84, 0.85) 100%);
-                                background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(36, 108, 224, 1)), color-stop(21%, rgba(36, 108, 224, 0.97)), color-stop(31%, rgba(8, 46, 84, 0.95)), color-stop(100%, rgba(8, 46, 84, 0.85)));
-                                background: -webkit-linear-gradient(top, rgba(36, 108, 224, 1) 0%, rgba(36, 108, 224, 0.97) 21%, rgba(8, 46, 84, 0.95) 31%, rgba(8, 46, 84, 0.85) 100%);
-                                background: -o-linear-gradient(top, rgba(36, 108, 224, 1) 0%, rgba(36, 108, 224, 0.97) 21%, rgba(8, 46, 84, 0.95) 31%, rgba(8, 46, 84, 0.85) 100%);
-                                background: -ms-linear-gradient(top, rgba(36, 108, 224, 1) 0%, rgba(36, 108, 224, 0.97) 21%, rgba(8, 46, 84, 0.95) 31%, rgba(8, 46, 84, 0.85) 100%);
-                                background: linear-gradient(to bottom, rgba(36, 108, 224, 1) 0%, rgba(36, 108, 224, 0.97) 21%, rgba(8, 46, 84, 0.95) 31%, rgba(8, 46, 84, 0.85) 100%);
-                                filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#246ce0', endColorstr='#082e54', GradientType=0);*/ }
+                                      background: -moz-linear-gradient(top, rgba(36, 108, 224, 1) 0%, rgba(36, 108, 224, 0.97) 21%, rgba(8, 46, 84, 0.95) 31%, rgba(8, 46, 84, 0.85) 100%);
+                                      background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(36, 108, 224, 1)), color-stop(21%, rgba(36, 108, 224, 0.97)), color-stop(31%, rgba(8, 46, 84, 0.95)), color-stop(100%, rgba(8, 46, 84, 0.85)));
+                                      background: -webkit-linear-gradient(top, rgba(36, 108, 224, 1) 0%, rgba(36, 108, 224, 0.97) 21%, rgba(8, 46, 84, 0.95) 31%, rgba(8, 46, 84, 0.85) 100%);
+                                      background: -o-linear-gradient(top, rgba(36, 108, 224, 1) 0%, rgba(36, 108, 224, 0.97) 21%, rgba(8, 46, 84, 0.95) 31%, rgba(8, 46, 84, 0.85) 100%);
+                                      background: -ms-linear-gradient(top, rgba(36, 108, 224, 1) 0%, rgba(36, 108, 224, 0.97) 21%, rgba(8, 46, 84, 0.95) 31%, rgba(8, 46, 84, 0.85) 100%);
+                                      background: linear-gradient(to bottom, rgba(36, 108, 224, 1) 0%, rgba(36, 108, 224, 0.97) 21%, rgba(8, 46, 84, 0.95) 31%, rgba(8, 46, 84, 0.85) 100%);
+                                      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#246ce0', endColorstr='#082e54', GradientType=0);*/ }
   #play { position: absolute; top: 38%; left: 0px; right: 9%; width: 50%; visibility: visible; margin: 0 auto; cursor: pointer; }
   #video-placeholder { width: 99.9%; height: 100%; }
   #play:after { position: absolute; content: '\f487'; font-family: 'ionicons'; font-size: 40px; color: #e5e5e5; left: 42%; top: 34%; background: rgba(24, 72, 132, 0.97); text-align: center; width: 50px; border-radius: 50%; height: 50px; line-height: 50px; z-index: 9; text-indent: 5px; }
@@ -271,10 +271,31 @@ a:hover, a:focus, a:active { text-decoration: none; color: #fff; outline: none; 
   /*End Directory*/
 
   /*BEGIN JOBS*/
+  .right_section.jobs_whole,.right_section.whatsonwhole { background-image: url('../img/bg4.png'); }
+  .filter_jobs { margin-bottom: 15px; }
+  .filter_jobs .bootstrap-select>.dropdown-toggle:focus { outline: none !important; }
+   .filter_jobs  .bootstrap-select>.dropdown-toggle.bs-placeholder, .bootstrap-select>.dropdown-toggle.bs-placeholder:active, .bootstrap-select>.dropdown-toggle.bs-placeholder:focus, .bootstrap-select>.dropdown-toggle.bs-placeholder:hover { color: #fff !important; outline: none !important; }
+  .filter_jobs .btn-group { width: 100% !important }
+  .filter_jobs .btn-group.open .dropdown-toggle { padding: 6px 12px; font-family: 'Roboto', sans-serif; background: transparent; color: #fff; width: 100%; border-radius: 20px; background-image: url(../img/up_arrow_white.png); background-repeat: no-repeat; background-size: 10px; background-position: 98% 13px; }
+  .filter_jobs .bootstrap-select>.dropdown-toggle { margin: 10px 0px 10px; padding: 6px 12px; border: 1px solid #fff; text-shadow: none; background: transparent; color: #fff; width: 100%; border-radius: 20px; background-image: url(../img/down_arrow_white.png); background-repeat: no-repeat; background-size: 10px; background-position: 98% 13px; }
+  .filter_jobs .bootstrap-select.btn-group.show-tick .dropdown-menu li a span.check-mark { top: 7px; left: 15px; right: inherit; width: 25px; height: 25px; line-height: 20px; color: #0990FF; border-radius: 50%; border: 1px solid #ccc; margin: 0px; text-align: center; }
+  .filter_jobs .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a span.check-mark { border-color: #fff; color: #fff; }
+  .filter_jobs .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a  .text { color: #fff; }
+  .filter_jobs .bs-caret { display: none; }
+  .filter_jobs .dropdown-menu>li.selected>a { background-color: #0990FF !important; }
+  .filter_jobs .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a span.check-mark { border-color: #fff; }
+  .filter_jobs .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a .glyphicon-ok:before { color: #fff; }
+  .filter_jobs .dropdown-menu>li>a { padding: 10px 50px; border-bottom: 1px solid #ccc; margin: 0px 0px; }
+  .filter_jobs .dropdown-menu>li>a:hover, .filter_jobs .dropdown-menu>li>a:focus { background-color: #fff; background-image: none; }
+  .filter_jobs .bootstrap-select.btn-group .dropdown-menu { background: #fff; padding: 5px; }
+  .filter_jobs .glyphicon-ok:before { content: '\f383'; font-family: 'ionicons'; color: #ccc; }
+  .filter_jobs .bootstrap-select.btn-group .dropdown-menu li a span.text { color: #8C8C8C; }
+  .filter_jobs .btn-group.open .dropdown-toggle:focus { outline: none !important; }
+  .filter_jobs .bootstrap-select.btn-group .dropdown-menu li a span.check-mark { top: 7px; left: 15px; position: absolute; display: block; border: 1px solid #ccc; }
   .jobs .jobs_box_full { margin-bottom: 10px; }
   .jobs .jobs_box_full h6 { color: #fff; margin-top: 0px; text-transform: uppercase; }
   .jobs .jobs_box_full ul { display: table; width: 100%; margin: 0px; padding: 0px; }
-  .jobs .jobs_box_full h3, .jobs .jobs_box_full h5 { color: #ffd2aa; margin-top: 0px; }
+  .jobs .jobs_box_full h3, .jobs .jobs_box_full h5 { color: #E1FF69; margin-top: 0px; }
   .jobs .jobs_box_full p { padding: 0px; margin-top: 0px; }
   .jobs .jobs_box_full p a { padding: 0px; color: #E1FF69; }
   .jobs .jobs_box_full .jobs_box_width_2 { background: rgba(71, 122, 194, 1); background: -moz-linear-gradient(top, rgba(71, 122, 194, 1) 0%, rgba(71, 122, 194, 0.5) 100%); background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(71, 122, 194, 1)), color-stop(100%, rgba(71, 122, 194, 0.5))); background: -webkit-linear-gradient(top, rgba(71, 122, 194, 1) 0%, rgba(71, 122, 194, 0.5) 100%); background: -o-linear-gradient(top, rgba(71, 122, 194, 1) 0%, rgba(71, 122, 194, 0.5) 100%); background: -ms-linear-gradient(top, rgba(71, 122, 194, 1) 0%, rgba(71, 122, 194, 0.5) 100%); background: linear-gradient(to bottom, rgba(71, 122, 194, 1) 0%, rgba(71, 122, 194, 0.5) 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#477ac2', endColorstr='#477ac2', GradientType=0); }
@@ -293,7 +314,7 @@ a:hover, a:focus, a:active { text-decoration: none; color: #fff; outline: none; 
   .jobs .jobs_box_full .jobs_box_width_8 .jobs_box_width_8_right:before { position: absolute; content: ''; width: 1.5px; top: -20px; background-color: rgba(79, 128, 255, 0.33); bottom: -20px; left: 0px; }
   .jobs .jobs_box_full .jobs_box_width_8 .jobs_box_width_8_right ul li { width: 100%; }
   .jobs .jobs_box_full .jobs_box_width_8 .jobs_box_width_8_left a { position: absolute; bottom: 0px; }
-  .btn-half-radius { margin-bottom: 10px; border: 1px solid #fff; border-radius: 20px; color: #fff; }
+  .btn-half-radius { margin: 10px 0px; border: 1px solid #fff; border-radius: 20px; color: #fff; }
   .btn-half-radius:hover, .btn-half-radius:focus { border: 1px solid #fff; border-radius: 20px; text-decoration: none; background-color: #fff; color: #000; }
   .jobs .jobs_box_full_2 .jobs_box_width_8 { padding-right: 10px; padding-left: 0px; }
   .jobs .jobs_box_full ul li { float: left; }
@@ -305,7 +326,15 @@ a:hover, a:focus, a:active { text-decoration: none; color: #fff; outline: none; 
   .jobs  .jobs_box_full.jobs_box_full_3 ul li:nth-child(3) { padding-right: 0px; }
 
   /*END JOBS*/
-
+/*WHATS ON*/
+.whatson ul li { display: table; width: 100%; background: rgba(255, 255, 255, 0.25);     padding: 15px;}
+.whatson .profile_left { height: 180px; width: 100px;display: table; }
+.whatson .profile_left figure { display: table-cell; vertical-align: middle; }
+.whatson .profile_right  h3{color: #E1FF69;    margin: 7px 0px 0px 0px;}
+.whatson .profile_right  h5{color: #fff;letter-spacing: 1px;    margin: 7px 0px 0px 0px;}
+.whatson .profile_right p{    padding: 0px 30px 0px 0px;   margin: 7px 0px 0px 0px;}
+.whatson .profile_left figure figcaption p {  text-align: center; color: #E1FF69;}
+/*END WHATS ON*/
   /*Begin Media Queries*/
   @media (max-width:1024px) {
     .search_filter .ui.multiple.dropdown>.text { padding: 0px 0px 0px 25%; }
@@ -333,7 +362,7 @@ a:hover, a:focus, a:active { text-decoration: none; color: #fff; outline: none; 
     .jobs .jobs_box_full .jobs_box_width_8 .jobs_box_width_8_left a { position: relative; }
     .directory .directory_list .directory_img { float: left; }
     .jobs .jobs_box_full .jobs_box_width_2_bg { height: auto; margin-bottom: 25px; }
-    .jobs .jobs_box_full .jobs_box_width_8_bg { height: auto;}
+    .jobs .jobs_box_full .jobs_box_width_8_bg { height: auto; }
     .directory .directory_list .directory_img img { width: 50%; margin: 0 auto; }
   }
   @media (max-width:800px) {
@@ -344,9 +373,9 @@ a:hover, a:focus, a:active { text-decoration: none; color: #fff; outline: none; 
     .mob_header .search { width: 323px; height: 80px; z-index: 99; border: none; max-width: 0; padding: 15px; transition: all .5s ease; position: absolute; box-sizing: border-box; opacity: 0; border-bottom: 1px solid #fff; font-size: 24px; left: 0px; top: 0px; }
   }
   @media (max-width:767px) {
-    .jobs,.filter{padding: 0px 15px;}
-    .jobs .jobs_box_full h3, .jobs .jobs_box_full h5{margin-bottom: 0px;}
-    .jobs .jobs_box_full .jobs_box_width_8 .jobs_box_width_8_right ul li { width: auto; float: none; display: table-cell; text-align: right;vertical-align: middle; }
+    .jobs, .filter_jobs { padding: 0px 15px; }
+    .jobs .jobs_box_full h3, .jobs .jobs_box_full h5 { margin-bottom: 0px; }
+    .jobs .jobs_box_full .jobs_box_width_8 .jobs_box_width_8_right ul li { width: auto; float: none; display: table-cell; text-align: right; vertical-align: middle; }
     .jobs .jobs_box_full .jobs_box_width_8 .jobs_box_width_8_right:before { display: none; }
     .directory ul { padding: 0px 15px; }
     .single_post .back_root { padding: 0px 0px 0px 0%; }
@@ -382,7 +411,7 @@ a:hover, a:focus, a:active { text-decoration: none; color: #fff; outline: none; 
     .single_post .slick-slide img { height: 300px; }
   }
   @media (max-width:480px) {
-    .jobs .jobs_box_full .jobs_box_width_8 .jobs_box_width_8_right ul li{display: table;text-align: left;}
+    .jobs .jobs_box_full .jobs_box_width_8 .jobs_box_width_8_right ul li { display: table; text-align: left; }
     .grid-item { width: 100%; }
     .left_bar { width: 70%; }
     .cs-select ul { max-height: 300px; }
