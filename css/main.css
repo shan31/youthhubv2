@@ -35,13 +35,13 @@ a:hover, a:focus, a:active { text-decoration: none; color: #fff; outline: none; 
 
 .right_section { padding: 0px; height: 100%; position: fixed; right: 0px; overflow: auto; background-image: url('../img/bg1.png'); background-size: cover; }
 .right_section_inner { height: 100vh; overflow: auto;    /* background: rgba(36, 108, 224, 1);
-                                      background: -moz-linear-gradient(top, rgba(36, 108, 224, 1) 0%, rgba(36, 108, 224, 0.97) 21%, rgba(8, 46, 84, 0.95) 31%, rgba(8, 46, 84, 0.85) 100%);
-                                      background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(36, 108, 224, 1)), color-stop(21%, rgba(36, 108, 224, 0.97)), color-stop(31%, rgba(8, 46, 84, 0.95)), color-stop(100%, rgba(8, 46, 84, 0.85)));
-                                      background: -webkit-linear-gradient(top, rgba(36, 108, 224, 1) 0%, rgba(36, 108, 224, 0.97) 21%, rgba(8, 46, 84, 0.95) 31%, rgba(8, 46, 84, 0.85) 100%);
-                                      background: -o-linear-gradient(top, rgba(36, 108, 224, 1) 0%, rgba(36, 108, 224, 0.97) 21%, rgba(8, 46, 84, 0.95) 31%, rgba(8, 46, 84, 0.85) 100%);
-                                      background: -ms-linear-gradient(top, rgba(36, 108, 224, 1) 0%, rgba(36, 108, 224, 0.97) 21%, rgba(8, 46, 84, 0.95) 31%, rgba(8, 46, 84, 0.85) 100%);
-                                      background: linear-gradient(to bottom, rgba(36, 108, 224, 1) 0%, rgba(36, 108, 224, 0.97) 21%, rgba(8, 46, 84, 0.95) 31%, rgba(8, 46, 84, 0.85) 100%);
-                                      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#246ce0', endColorstr='#082e54', GradientType=0);*/ }
+                                        background: -moz-linear-gradient(top, rgba(36, 108, 224, 1) 0%, rgba(36, 108, 224, 0.97) 21%, rgba(8, 46, 84, 0.95) 31%, rgba(8, 46, 84, 0.85) 100%);
+                                        background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(36, 108, 224, 1)), color-stop(21%, rgba(36, 108, 224, 0.97)), color-stop(31%, rgba(8, 46, 84, 0.95)), color-stop(100%, rgba(8, 46, 84, 0.85)));
+                                        background: -webkit-linear-gradient(top, rgba(36, 108, 224, 1) 0%, rgba(36, 108, 224, 0.97) 21%, rgba(8, 46, 84, 0.95) 31%, rgba(8, 46, 84, 0.85) 100%);
+                                        background: -o-linear-gradient(top, rgba(36, 108, 224, 1) 0%, rgba(36, 108, 224, 0.97) 21%, rgba(8, 46, 84, 0.95) 31%, rgba(8, 46, 84, 0.85) 100%);
+                                        background: -ms-linear-gradient(top, rgba(36, 108, 224, 1) 0%, rgba(36, 108, 224, 0.97) 21%, rgba(8, 46, 84, 0.95) 31%, rgba(8, 46, 84, 0.85) 100%);
+                                        background: linear-gradient(to bottom, rgba(36, 108, 224, 1) 0%, rgba(36, 108, 224, 0.97) 21%, rgba(8, 46, 84, 0.95) 31%, rgba(8, 46, 84, 0.85) 100%);
+                                        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#246ce0', endColorstr='#082e54', GradientType=0);*/ }
   #play { position: absolute; top: 38%; left: 0px; right: 9%; width: 50%; visibility: visible; margin: 0 auto; cursor: pointer; }
   #video-placeholder { width: 99.9%; height: 100%; }
   #play:after { position: absolute; content: '\f487'; font-family: 'ionicons'; font-size: 40px; color: #e5e5e5; left: 42%; top: 34%; background: rgba(24, 72, 132, 0.97); text-align: center; width: 50px; border-radius: 50%; height: 50px; line-height: 50px; z-index: 9; text-indent: 5px; }
@@ -271,10 +271,10 @@ a:hover, a:focus, a:active { text-decoration: none; color: #fff; outline: none; 
   /*End Directory*/
 
   /*BEGIN JOBS*/
-  .right_section.jobs_whole,.right_section.whatsonwhole { background-image: url('../img/bg4.png'); }
+  .right_section.jobs_whole, .right_section.whatsonwhole { background-image: url('../img/bg4.png'); }
   .filter_jobs { margin-bottom: 15px; }
   .filter_jobs .bootstrap-select>.dropdown-toggle:focus { outline: none !important; }
-   .filter_jobs  .bootstrap-select>.dropdown-toggle.bs-placeholder, .bootstrap-select>.dropdown-toggle.bs-placeholder:active, .bootstrap-select>.dropdown-toggle.bs-placeholder:focus, .bootstrap-select>.dropdown-toggle.bs-placeholder:hover { color: #fff !important; outline: none !important; }
+  .filter_jobs  .bootstrap-select>.dropdown-toggle.bs-placeholder, .bootstrap-select>.dropdown-toggle.bs-placeholder:active, .bootstrap-select>.dropdown-toggle.bs-placeholder:focus, .bootstrap-select>.dropdown-toggle.bs-placeholder:hover { color: #fff !important; outline: none !important; }
   .filter_jobs .btn-group { width: 100% !important }
   .filter_jobs .btn-group.open .dropdown-toggle { padding: 6px 12px; font-family: 'Roboto', sans-serif; background: transparent; color: #fff; width: 100%; border-radius: 20px; background-image: url(../img/up_arrow_white.png); background-repeat: no-repeat; background-size: 10px; background-position: 98% 13px; }
   .filter_jobs .bootstrap-select>.dropdown-toggle { margin: 10px 0px 10px; padding: 6px 12px; border: 1px solid #fff; text-shadow: none; background: transparent; color: #fff; width: 100%; border-radius: 20px; background-image: url(../img/down_arrow_white.png); background-repeat: no-repeat; background-size: 10px; background-position: 98% 13px; }
@@ -326,15 +326,34 @@ a:hover, a:focus, a:active { text-decoration: none; color: #fff; outline: none; 
   .jobs  .jobs_box_full.jobs_box_full_3 ul li:nth-child(3) { padding-right: 0px; }
 
   /*END JOBS*/
-/*WHATS ON*/
-.whatson ul li { display: table; width: 100%; background: rgba(255, 255, 255, 0.25);     padding: 15px;}
-.whatson .profile_left { height: 180px; width: 100px;display: table; }
-.whatson .profile_left figure { display: table-cell; vertical-align: middle; }
-.whatson .profile_right  h3{color: #E1FF69;    margin: 7px 0px 0px 0px;}
-.whatson .profile_right  h5{color: #fff;letter-spacing: 1px;    margin: 7px 0px 0px 0px;}
-.whatson .profile_right p{    padding: 0px 30px 0px 0px;   margin: 7px 0px 0px 0px;}
-.whatson .profile_left figure figcaption p {  text-align: center; color: #E1FF69;}
-/*END WHATS ON*/
+
+  /*WHATS ON*/
+  .whatson_whole { display: table; }
+  .whatson_whole_content { float: none; display: table-cell; vertical-align: middle; }
+  .whatson ul li { display: table; width: 100%; background: rgba(255, 255, 255, 0.25); padding: 15px;margin-bottom: 15px; }
+   .whatson_whole_content .profile_left{background-repeat: no-repeat;background-size: contain;    height: 140px;}
+   .whatson .profile_left figure{position: relative;height: 100%;}
+   .whatson .profile_left figure figcaption{position: absolute;
+    bottom: -25px;
+    text-align: center;
+    left: 0px;
+    right: 0px;}
+  .whatson .profile_right  h3 { color: #E1FF69; margin: 0px 0px 7px 0px; }
+  .whatson .profile_right  h5 { color: #fff; letter-spacing: 1px; margin: 0px 0px 7px 0px; }
+  .whatson .profile_right p { padding: 0px 30px 0px 0px; margin: 0px 0px 7px 0px; }
+  .whatson .profile_left figure figcaption p { text-align: center; color: #E1FF69;padding: 0px; margin: 0px;}
+  .whatson .profile_event_details ul { padding: 0px 30px; }
+  .whatson .profile_event_details ul li { background: inherit; padding: 0px; text-align: left;margin-bottom: 0px;
+ }
+  .whatson .profile_event_details ul li h5 { color: #E1FF69; }
+  .whatson .profile_event_details ul li h5 i { padding-right: 10px; font-size: 20px; }
+  .whatson .profile_event_details ul li p i { padding: 0px 10px 0px 2px; font-size: 26px; }
+  .whatson .profile_event_details ul li p { padding: 0px; font-size: 16px; }
+  .whatson .profile_event_details:after { position: absolute; content: ''; width: 1px; top: -15px; bottom: -15px; background-color: #88adeb; left: 7px; }
+  .whatson .profile_event_details  .profile_event_date:after { position: absolute; content: ''; left: 7px; right: -15px; height: 1px; background-color: #88adeb; }
+
+  /*END WHATS ON*/
+
   /*Begin Media Queries*/
   @media (max-width:1024px) {
     .search_filter .ui.multiple.dropdown>.text { padding: 0px 0px 0px 25%; }
@@ -357,6 +376,28 @@ a:hover, a:focus, a:active { text-decoration: none; color: #fff; outline: none; 
     .jobs .jobs_box_full_2 ul li:nth-child(2) { width: 100%; }
     .jobs  .jobs_box_full.jobs_box_full_3 ul li { width: 100%; padding: 0px; }
   }
+    @media (max-width:992px) {
+      .whatson_whole_content .profile_left{background-position: center;margin-bottom: 30px;}
+      .whatson_whole_content .profile_right{text-align: center;}
+      .whatson_whole_content .profile_right .btn-half-radius{display: table;
+    margin: 15px auto;
+    width: 100%;
+}
+.whatson .profile_event_details ul li{text-align: center;}
+      .whatson_whole_content{float: left;}
+     .whatson .profile_event_details:after {
+position: absolute;
+    content: '';
+    width: initial;
+    left: -15px;
+    top: inherit;
+    bottom: inherit;
+    right: -15px;
+    height: 1px;
+    background-color: #88adeb;
+}
+      .whatson .profile_event_details  .profile_event_date:after{left: -15px;}
+    }
   @media (max-width:960px) {
     .jobs .jobs_box_full .jobs_box_width_2 ul { position: absolute; bottom: 0px; width: 100%; padding: 10px 20px 0px; }
     .jobs .jobs_box_full .jobs_box_width_8 .jobs_box_width_8_left a { position: relative; }
@@ -373,11 +414,13 @@ a:hover, a:focus, a:active { text-decoration: none; color: #fff; outline: none; 
     .mob_header .search { width: 323px; height: 80px; z-index: 99; border: none; max-width: 0; padding: 15px; transition: all .5s ease; position: absolute; box-sizing: border-box; opacity: 0; border-bottom: 1px solid #fff; font-size: 24px; left: 0px; top: 0px; }
   }
   @media (max-width:767px) {
-    .jobs, .filter_jobs { padding: 0px 15px; }
+
+    .jobs, .filter_jobs,.whatson{ padding: 0px 15px; }
     .jobs .jobs_box_full h3, .jobs .jobs_box_full h5 { margin-bottom: 0px; }
     .jobs .jobs_box_full .jobs_box_width_8 .jobs_box_width_8_right ul li { width: auto; float: none; display: table-cell; text-align: right; vertical-align: middle; }
     .jobs .jobs_box_full .jobs_box_width_8 .jobs_box_width_8_right:before { display: none; }
     .directory ul { padding: 0px 15px; }
+    .whatson .profile_right p{padding: 0px;}
     .single_post .back_root { padding: 0px 0px 0px 0%; }
     .single_post .might_like.trending_posts:after { display: none; }
     .single_post .single_post_text p { text-align: justify; word-break: normal; word-wrap: normal; word-spacing: -5px; }
