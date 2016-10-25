@@ -367,9 +367,8 @@ a:hover, a:focus, a:active { text-decoration: none; color: #fff; outline: none; 
   .directory_view .recent_posts ul { width: 100%; display: table; margin-left: 0px; }
   .directory_view .recent_posts ul li { width: 33.3%; display: table; float: left; height: 100%; margin-bottom: 15px; max-height: 260px; padding: 0px; }
   .directory_view .recent_posts  h4 { border-bottom: none; text-transform: uppercase; color: #BBBBBB; }
-  .directory_view .recent_posts ul li:nth-child(1) { padding-left: 0px; padding-right: 10px; }
-  .directory_view .recent_posts ul li:nth-child(1n+4) { padding-left: 0px; padding-right: 10px; }
-  .directory_view .recent_posts ul li:nth-child(3n+3) { padding-right: 0px; padding-left: 10px; }
+  .directory_view .recent_posts ul li:nth-child(3n+1) { padding-left: 0px; padding-right: 10px; }
+  .directory_view .recent_posts ul li:nth-child(3n+0) { padding-right: 0px;padding-left: 10px; }
   .directory_view .recent_posts ul li .recent_posts_img { width: 100%; background-repeat: no-repeat; height: 160px; box-shadow: none; background-size: contain; background-position: center center; }
   .directory_view .recent_posts ul li div { background-color: #fff; border: 0px solid #ccc; box-shadow: .8px .9px 3px #ccc; -webkit-box-shadow: 3px 3px 20px #ccc; }
   .directory_view .recent_posts ul li p, .directory_view .recent_posts ul li h6 { padding: 10px; }
@@ -385,8 +384,9 @@ a:hover, a:focus, a:active { text-decoration: none; color: #fff; outline: none; 
   /*Begin Media Queries*/
   @media (max-width:1024px) {
     .directory_view .recent_posts ul li { width: 50%; }
-    .directory_view .recent_posts ul li:nth-child(3n+3) { padding-right: 10px; padding-left: 0px; }
-    .directory_view .recent_posts ul li:nth-child(1n+4) { padding-left: 0px; padding-right: 0px; }
+  .directory_view .recent_posts ul li:nth-child(2n+1) { padding-left: 0px; padding-right: 10px; }
+  .directory_view .recent_posts ul li:nth-child(2n+0) { padding-right: 0px;padding-left: 10px; }
+
     .search_filter .ui.multiple.dropdown>.text { padding: 0px 0px 0px 25%; }
     .single_post .might_like ul li { width: 50%; }
     .single_post .single_post_img { height: 250px; }
@@ -433,7 +433,7 @@ a:hover, a:focus, a:active { text-decoration: none; color: #fff; outline: none; 
   }
   @media (max-width:767px) {
     .directory_view .recent_posts ul li { width: 100%; }
-    .directory_view .recent_posts ul li:nth-child(1n+1) { padding-right: 0px; }
+    .directory_view .recent_posts ul li:nth-child(1n+0) { padding: 0px; }
     .directory_view .recent_posts ul li { width: 100%; display: table; }
     .jobs, .filter_jobs, .whatson { padding: 0px 15px; }
     .jobs .jobs_box_full h3, .jobs .jobs_box_full h5 { margin-bottom: 0px; }
