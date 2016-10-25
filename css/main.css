@@ -22,12 +22,12 @@ a:hover, a:focus, a:active { text-decoration: none; color: #fff; outline: none; 
 .left_bar a.logo_text { color: #fff; text-align: center; font-weight: 500; display: table; position: relative; margin: 0 auto; padding: 10px 0px; letter-spacing: 1px; font-size: 18px; }
 .left_bar a.logo_text img { display: table; margin: 10px auto; }
 .left_bar a.logo_text i { position: absolute; top: 0px; right: -55px; }
-.left_bar ul li { padding: 5% 0px; }
+.left_bar ul li { padding: 0px 0px; }
 .left_bar ul li a { color: #fff; letter-spacing: 1px; text-transform: uppercase; text-align: center; font-weight: 300; margin: 0 auto; }
 .left_bar .cs-skin-border > span { border: 1px solid #fff !important; color: #fff; padding: 10px 20px; border-radius: 20px; }
 .left_bar .cs-skin-border.cs-active > span { color: #2980b9 !important; }
 .left_bar .cs-skin-border.cs-active .cs-options { background-color: #1a2a3a; border: 1px solid #3BC3FF !important; color: #3BC3FF; }
-.left_bar .cs-skin-border ul span { padding: 5px 10px; color: #3BC3FF; }
+.left_bar .cs-skin-border ul span { padding: 2px 10px; color: #3BC3FF; }
 
 /*End Left Bar Section Css*/
 
