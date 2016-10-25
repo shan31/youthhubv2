@@ -267,6 +267,7 @@
         <script>
         var map;
 
+
         function initMap() {
             map = new google.maps.Map(document.getElementById('map'), {
                 center: {
@@ -276,6 +277,11 @@
                 zoom: 7
 
             });
+
+            var myMarker = new google.maps.Marker({
+    position: new google.maps.LatLng(-36.8484597, 174.76333150000005),
+    draggable: true
+});
         }
         </script>
 </body>
