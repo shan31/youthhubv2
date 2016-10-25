@@ -365,7 +365,7 @@ a:hover, a:focus, a:active { text-decoration: none; color: #fff; outline: none; 
   .directory_view .directory_view_details ul li p a { color: rgba(71, 122, 194, 1); }
   .directory_view .directory_view_details ul { padding: 10px 0px; border-bottom: 1px solid #ccc; }
    .directory_view .recent_posts ul {width: 100%;display: table;margin-left: 0px;}
-   .directory_view .recent_posts ul li{width: 50%;    float: left;height: 100%;    margin-bottom: 15px;max-height: 260px;}
+   .directory_view .recent_posts ul li{width: 50%;        display: table;float: left;height: 100%;    margin-bottom: 15px;max-height: 260px;}
    .directory_view .recent_posts  h4{border-bottom: none;}
    .directory_view .recent_posts ul li:nth-child(1n+1){padding-left: 0px;padding-right: 10px;}
    .directory_view .recent_posts ul li:nth-child(2n+2){padding-right: 0px;}
@@ -432,6 +432,8 @@ a:hover, a:focus, a:active { text-decoration: none; color: #fff; outline: none; 
     .mob_header .search { width: 323px; height: 80px; z-index: 99; border: none; max-width: 0; padding: 15px; transition: all .5s ease; position: absolute; box-sizing: border-box; opacity: 0; border-bottom: 1px solid #fff; font-size: 24px; left: 0px; top: 0px; }
   }
   @media (max-width:767px) {
+    .directory_view .recent_posts ul li:nth-child(1n+1){padding-right: 0px;}
+    .directory_view .recent_posts ul li{width: 100%;display: table;}
     .jobs, .filter_jobs, .whatson { padding: 0px 15px; }
     .jobs .jobs_box_full h3, .jobs .jobs_box_full h5 { margin-bottom: 0px; }
     .jobs .jobs_box_full .jobs_box_width_8 .jobs_box_width_8_right ul li { width: auto; float: none; display: table-cell; text-align: right; vertical-align: middle; }
