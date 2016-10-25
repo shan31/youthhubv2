@@ -27,7 +27,8 @@
            $grid.isotope({
                itemSelector: '.grid-item',
                columnWidth: '.grid-sizer',
-               percentPosition: true
+               percentPosition: true,
+               
            });
        });
        $grid.on('arrangeComplete', function(event, filteredItems) {
