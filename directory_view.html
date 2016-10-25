@@ -277,6 +277,19 @@
                 zoom: 7
 
             });
+var settingsItemsMap = {
+    zoom: 7,
+    center: new google.maps.LatLng(40.768516981, -73.96927308),
+    zoomControlOptions: {
+      style: google.maps.ZoomControlStyle.LARGE
+    },
+    styles:[
+        { featureType: "water", stylers: [ { hue: "#F4B741"} ] },
+        { featureType: "road", stylers: [ { hue: "#ff0000" } ] }
+    ],
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+};
+
 
             var myMarker = new google.maps.Marker({
     position: new google.maps.LatLng(-36.8484597, 174.76333150000005),
