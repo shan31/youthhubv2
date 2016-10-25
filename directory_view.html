@@ -265,18 +265,8 @@
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCLXlF_8-3-uylOuJ49qPoyPul9UelDaBI&callback=initMap" async defer></script>
         <script src="js/main.js"></script>
         <script>
-        var map;
-
-
-        function initMap() {
-            map = new google.maps.Map(document.getElementById('map'), {
-                center: {
-                    lat: -36.8484597 ,
-                    lng:  174.76333150000005
-                },
-                zoom: 7
-                var settingsItemsMap = {
-    zoom: 7,
+        var settingsItemsMap = {
+    zoom: 12,
     center: new google.maps.LatLng(40.768516981, -73.96927308),
     zoomControlOptions: {
       style: google.maps.ZoomControlStyle.LARGE
@@ -287,9 +277,23 @@
     ],
     mapTypeId: google.maps.MapTypeId.ROADMAP
 };
+var map = new google.maps.Map(document.getElementById('map_canvas'), settingsItemsMap );
 
-            });
-        }
+var myMarker = new google.maps.Marker({
+    position: new google.maps.LatLng(40.768516981, -73.96927308),
+    draggable: true
+});
+
+google.maps.event.addListener(myMarker, 'dragend', function(evt){
+    document.getElementById('current').innerHTML = '<p>Marker dropped: Current Lat: ' + evt.latLng.lat().toFixed(3) + ' Current Lng: ' + evt.latLng.lng().toFixed(3) + '</p>';
+});
+
+google.maps.event.addListener(myMarker, 'dragstart', function(evt){
+    document.getElementById('current').innerHTML = '<p>Currently dragging marker...</p>';
+});
+
+map.setCenter(myMarker.position);
+myMarker.setMap(map);
         </script>
 </body>
 
