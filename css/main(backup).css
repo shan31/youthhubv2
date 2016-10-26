@@ -28,21 +28,20 @@ a:hover, a:focus, a:active { text-decoration: none; color: #fff; outline: none; 
 .left_bar .cs-skin-border.cs-active > span { color: #2980b9 !important; }
 .left_bar .cs-skin-border.cs-active .cs-options { background-color: #1a2a3a; border: 1px solid #3BC3FF !important; color: #3BC3FF; }
 .left_bar .cs-skin-border ul span { padding: 2px 10px; color: #3BC3FF; }
-.left_bar .cs-options ul li { padding: 0px; }
-
+.left_bar .cs-options ul li{padding: 0px;}
 /*End Left Bar Section Css*/
 
 /*Right Section CSS*/
 
 .right_section { padding: 0px; height: 100%; position: fixed; right: 0px; overflow: auto; background-image: url('../img/bg4.png'); background-size: cover; }
 .right_section_inner { height: 100vh; overflow: auto;    /* background: rgba(36, 108, 224, 1);
-                                                      background: -moz-linear-gradient(top, rgba(36, 108, 224, 1) 0%, rgba(36, 108, 224, 0.97) 21%, rgba(8, 46, 84, 0.95) 31%, rgba(8, 46, 84, 0.85) 100%);
-                                                      background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(36, 108, 224, 1)), color-stop(21%, rgba(36, 108, 224, 0.97)), color-stop(31%, rgba(8, 46, 84, 0.95)), color-stop(100%, rgba(8, 46, 84, 0.85)));
-                                                      background: -webkit-linear-gradient(top, rgba(36, 108, 224, 1) 0%, rgba(36, 108, 224, 0.97) 21%, rgba(8, 46, 84, 0.95) 31%, rgba(8, 46, 84, 0.85) 100%);
-                                                      background: -o-linear-gradient(top, rgba(36, 108, 224, 1) 0%, rgba(36, 108, 224, 0.97) 21%, rgba(8, 46, 84, 0.95) 31%, rgba(8, 46, 84, 0.85) 100%);
-                                                      background: -ms-linear-gradient(top, rgba(36, 108, 224, 1) 0%, rgba(36, 108, 224, 0.97) 21%, rgba(8, 46, 84, 0.95) 31%, rgba(8, 46, 84, 0.85) 100%);
-                                                      background: linear-gradient(to bottom, rgba(36, 108, 224, 1) 0%, rgba(36, 108, 224, 0.97) 21%, rgba(8, 46, 84, 0.95) 31%, rgba(8, 46, 84, 0.85) 100%);
-                                                      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#246ce0', endColorstr='#082e54', GradientType=0);*/ }
+                                                background: -moz-linear-gradient(top, rgba(36, 108, 224, 1) 0%, rgba(36, 108, 224, 0.97) 21%, rgba(8, 46, 84, 0.95) 31%, rgba(8, 46, 84, 0.85) 100%);
+                                                background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(36, 108, 224, 1)), color-stop(21%, rgba(36, 108, 224, 0.97)), color-stop(31%, rgba(8, 46, 84, 0.95)), color-stop(100%, rgba(8, 46, 84, 0.85)));
+                                                background: -webkit-linear-gradient(top, rgba(36, 108, 224, 1) 0%, rgba(36, 108, 224, 0.97) 21%, rgba(8, 46, 84, 0.95) 31%, rgba(8, 46, 84, 0.85) 100%);
+                                                background: -o-linear-gradient(top, rgba(36, 108, 224, 1) 0%, rgba(36, 108, 224, 0.97) 21%, rgba(8, 46, 84, 0.95) 31%, rgba(8, 46, 84, 0.85) 100%);
+                                                background: -ms-linear-gradient(top, rgba(36, 108, 224, 1) 0%, rgba(36, 108, 224, 0.97) 21%, rgba(8, 46, 84, 0.95) 31%, rgba(8, 46, 84, 0.85) 100%);
+                                                background: linear-gradient(to bottom, rgba(36, 108, 224, 1) 0%, rgba(36, 108, 224, 0.97) 21%, rgba(8, 46, 84, 0.95) 31%, rgba(8, 46, 84, 0.85) 100%);
+                                                filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#246ce0', endColorstr='#082e54', GradientType=0);*/ }
   #play { position: absolute; top: 38%; left: 0px; right: 9%; width: 50%; visibility: visible; margin: 0 auto; cursor: pointer; }
   #video-placeholder { width: 99.9%; height: 100%; }
   #play:after { position: absolute; content: '\f487'; font-family: 'ionicons'; font-size: 40px; color: #e5e5e5; left: 42%; top: 34%; background: rgba(24, 72, 132, 0.97); text-align: center; width: 50px; border-radius: 50%; height: 50px; line-height: 50px; z-index: 9; text-indent: 5px; }
@@ -75,17 +74,20 @@ a:hover, a:focus, a:active { text-decoration: none; color: #fff; outline: none; 
 
   /*jobs ADS*/
   .individual_post { position: relative; float: left; width: 100%;    /* background: #325e9a; */ background: rgba(71, 122, 194, 1); background: -moz-linear-gradient(top, rgba(71, 122, 194, 1) 0%, rgba(71, 122, 194, 0.5) 100%); background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(71, 122, 194, 1)), color-stop(100%, rgba(71, 122, 194, 0.5))); background: -webkit-linear-gradient(top, rgba(71, 122, 194, 1) 0%, rgba(71, 122, 194, 0.5) 100%); background: -o-linear-gradient(top, rgba(71, 122, 194, 1) 0%, rgba(71, 122, 194, 0.5) 100%); background: -ms-linear-gradient(top, rgba(71, 122, 194, 1) 0%, rgba(71, 122, 194, 0.5) 100%); background: linear-gradient(to bottom, rgba(71, 122, 194, 1) 0%, rgba(71, 122, 194, 0.5) 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#477ac2', endColorstr='#477ac2', GradientType=0); }
-  .individual_post .jobs_blue_bg { background: url(../img/box_bg.png); background-repeat: no-repeat; background-size: cover; }
+  .individual_post .jobs_box_width_8_bg { background: url(../img/box_bg.png); background-repeat: no-repeat; background-size: cover; }
   .individual_post .date_place { width: 100%; padding: 10px 10px; display: table; margin: 0px; }
   .individual_post .date_place li { color: #fff; }
-  .individual_post .jobs_blue_bg h6 { color: #fff; }
-  .individual_post .jobs_blue_bg p a { color: #E1FF69 }
-  .individual_post .jobs_blue_bg p a:focus, .individual_post .jobs_blue_bg p a:hover { text-decoration: none; }
-  .individual_post .jobs_blue_bg h3 { color: #E1FF69; }
-  .individual_post .jobs_blue_bg.jobs_bg_pink { background: url(../img/box_bg_color.png) }
-  .individual_post .jobs_blue_bg.jobs_bg_purple { background: url(../img/jobs_purple_bg_color.png); background-size: cover; background-repeat: no-repeat; }
+  .individual_post .jobs_box_width_8_bg h6 { color: #fff; }
+  .individual_post .jobs_box_width_8_bg p a { color: #E1FF69 }
+  .individual_post .jobs_box_width_8_bg p a:focus, .individual_post .jobs_box_width_8_bg p a:hover { text-decoration: none; }
+  .individual_post .jobs_box_width_8_bg h3 { color: #E1FF69; }
+  .individual_post .jobs_box_width_8_bg.jobs_bg_pink{    background: url(../img/box_bg_color.png)}
+  .individual_post .jobs_box_width_8_bg.jobs_bg_purple{    background: url(../img/box_bg_square_color.png);background-size: cover;
+    background-repeat: no-repeat;}
 
   /*JOBS ADS*/
+
+
   .post_name p { padding: 0px 15px 0px 60px; text-align: left; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; text-transform: uppercase; }
   .post_name { position: relative; font-family: 'robotoblack'; font-size: 11px; margin-bottom: 0px; }
   .post_img { height: 200px; background-repeat: no-repeat; background-size: cover; width: 100%; background-position: center center; position: relative; }
@@ -313,15 +315,16 @@ a:hover, a:focus, a:active { text-decoration: none; color: #fff; outline: none; 
   .jobs .jobs_box_full h6 { color: #fff; margin-top: 0px; text-transform: uppercase; }
   .jobs .jobs_box_full ul { display: table; width: 100%; margin: 0px; padding: 0px; }
   .jobs .jobs_box_full h3, .jobs .jobs_box_full h5 { color: #E1FF69; margin-top: 0px; }
-  .jobs .jobs_box_full p { padding: 0px; margin-top: 0px; margin-top: 0px; margin-bottom: 25px; }
+  .jobs .jobs_box_full p { padding: 0px; margin-top: 0px; }
   .jobs .jobs_box_full p a { padding: 0px; color: #E1FF69; }
   .jobs .jobs_box_full .jobs_box_width_2 { background: rgba(71, 122, 194, 1); background: -moz-linear-gradient(top, rgba(71, 122, 194, 1) 0%, rgba(71, 122, 194, 0.5) 100%); background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(71, 122, 194, 1)), color-stop(100%, rgba(71, 122, 194, 0.5))); background: -webkit-linear-gradient(top, rgba(71, 122, 194, 1) 0%, rgba(71, 122, 194, 0.5) 100%); background: -o-linear-gradient(top, rgba(71, 122, 194, 1) 0%, rgba(71, 122, 194, 0.5) 100%); background: -ms-linear-gradient(top, rgba(71, 122, 194, 1) 0%, rgba(71, 122, 194, 0.5) 100%); background: linear-gradient(to bottom, rgba(71, 122, 194, 1) 0%, rgba(71, 122, 194, 0.5) 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#477ac2', endColorstr='#477ac2', GradientType=0); }
-  .jobs .jobs_box_full .jobs_blue_bg { background: url(../img/box_bg.png); background-repeat: no-repeat; background-size: cover; padding-right: 0px; }
-  .jobs .jobs_box_full .jobs_pink_bg { background: url(../img/box_bg_color.png); background-repeat: no-repeat; background-size: cover; padding-right: 0px; }
+  .jobs .jobs_box_full .jobs_box_width_8_bg { background: url(../img/box_bg.png); background-repeat: no-repeat; background-size: cover; padding-right: 0px; }
+  .jobs .jobs_box_full .jobs_box_width_8_bg.jobs_box_width_8_bg_ads { background: url(../img/box_bg_color.png); background-repeat: no-repeat; background-size: cover; padding-right: 0px; }
   .jobs .jobs_box_full .jobs_box_width_2 { padding: 0px; }
-  .jobs .jobs_box_full .jobs_box_width_2_bg.jobs_purple_bg { background: url(../img/box_bg_square_color.png); background-repeat: no-repeat; background-size: cover; padding-right: 0px; }
-  .jobs .jobs_box_full .jobs_box_width_2_bg, .jobs .jobs_box_full .jobs_blue_bg { padding: 20px; height: 270px; }
-  .jobs .jobs_box_full .jobs_box_width_2 ul { position: absolute; bottom: 5px; width: 100%; left: 0px; padding: 10px 10px; }
+  .jobs .jobs_box_full .jobs_box_width_8 { padding-right: 0px; padding-left: 10px; }
+  .jobs .jobs_box_full .jobs_box_width_2.box_bg_square { background: url(../img/box_bg_square_color.png); background-repeat: no-repeat; background-size: cover; padding-right: 0px; }
+  .jobs .jobs_box_full .jobs_box_width_2_bg, .jobs .jobs_box_full .jobs_box_width_8_bg { padding: 20px; height: 270px; }
+  .jobs .jobs_box_full .jobs_box_width_2 ul { position: absolute; bottom: 5px; width: 100%; padding: 10px 20px; }
   .jobs .jobs_box_full .jobs_box_width_2 ul:after { position: absolute; content: ''; width: 100%; left: 0px; height: 2px; background: rgba(85, 138, 227, 0.95); top: 0px; right: 0px; }
   .jobs .jobs_box_full .jobs_box_width_2 ul li { padding: 0px; }
   .jobs .jobs_box_full .jobs_box_width_2 ul li:nth-child(1) { color: #E1FF69; }
@@ -333,8 +336,13 @@ a:hover, a:focus, a:active { text-decoration: none; color: #fff; outline: none; 
   .btn-half-radius { margin: 10px 0px; border: 1px solid #fff; border-radius: 20px; color: #fff; }
   .btn-half-radius:hover, .btn-half-radius:focus { border: 1px solid #fff; border-radius: 20px; text-decoration: none; background-color: #fff; color: #000; }
   .jobs .jobs_box_full_2 .jobs_box_width_8 { padding-right: 10px; padding-left: 0px; }
-  .jobs .jobs_box_full ul li { float: none; display: inline; width: auto; }
-  .jobs .jobs_box_full .jobs_box_width { padding-right: 10px !important; margin-bottom: 10px; }
+  .jobs .jobs_box_full ul li { float: left; }
+  .jobs .jobs_box_full ul li:nth-child(1) { width: 35%; padding-right: 0px; }
+  .jobs .jobs_box_full ul li:nth-child(2) { width: 65%; padding-left: 0px; }
+  .jobs .jobs_box_full_2 ul li:nth-child(1) { width: 65%; padding-left: 0px; }
+  .jobs .jobs_box_full_2 ul li:nth-child(2) { width: 35%; padding-right: 0px; }
+  .jobs .jobs_box_full.jobs_box_full_3 ul li { width: 33.3%; float: left; padding-right: 10px; padding-left: 0px; }
+  .jobs .jobs_box_full.jobs_box_full_3 ul li:nth-child(3) { padding-right: 0px; }
 
   /*END JOBS*/
 
@@ -388,26 +396,20 @@ a:hover, a:focus, a:active { text-decoration: none; color: #fff; outline: none; 
   .directory_view .recent_posts a { border-color: #0990FF; color: #0990FF; margin: 10px; }
   .directory_view .recent_posts.similar_posts a { margin: 0px; }
   #map { height: 100%; }
-  .directory_view .recent_posts.similar_posts .recent_posts_img { background-position: center; background-size: contain; height: 120px; padding: 10px; width: 100%; background-color: #fff; background-repeat: no-repeat; }
-  .directory_view .recent_posts.similar_posts  div { background-color: transparent; box-shadow: none; }
+  .directory_view .recent_posts.similar_posts .recent_posts_img {
+          background-position: center;
+    background-size: contain;
+    height: 120px;
+    padding: 10px;
+    width: 100%;
+    background-color: #fff;
+    background-repeat: no-repeat;}
+    .directory_view .recent_posts.similar_posts  div{
+      background-color: transparent;
+      box-shadow: none;
+    }
 
   /*End Directory View*/
-
-  /*Contact Pages*/
-  .right_section.signup  .right_section_inner { padding: 0px; }
-  .signup_form { position: absolute; left: 33%; top: 8%; background: url('../img/formbg.png') repeat; padding: 1% 3%; }
-  .signup_form h2 { color: #fff; font-weight: 300; font-family: 'Roboto', sans-serif; font-family: 'robotoregular'; font-size: 26px; text-transform: uppercase; letter-spacing: 1px; }
-  .signup_form .input-group-addon, .signup_form .form-control { background-color: transparent; border-radius: 0px; border: 1px solid #fff; }
-  .signup_form .input-group-addon { border-right: 0px; border-left: 2px solid #80c780; }
-  .signup_form .input-group-addon i { font-size: 20px; }
-  .signup_form .form-control { border-left: 0px; }
-  .signup_form .input-group-addon { color: #fff; }
-  .signup_form .form-group { margin: 25px 0px; }
-  .signup_form .dont_text_info:before { position: absolute; content: ''; height: 1px; left: -40px; right: -40px; top: -10px; background-color: #355967; }
-  .signup_form .dont_text_info { margin: 10px 0px; }
-  .signup_form .dont_text_info ul li {color: #fff;}
-
-  /*End Contact Pages*/
 
   /*Begin Media Queries*/
   @media (max-width:1024px) {
@@ -448,7 +450,7 @@ a:hover, a:focus, a:active { text-decoration: none; color: #fff; outline: none; 
     .jobs .jobs_box_full .jobs_box_width_8 .jobs_box_width_8_left a { position: relative; }
     .directory .directory_list .directory_img { float: left; }
     .jobs .jobs_box_full .jobs_box_width_2_bg { height: auto; margin-bottom: 25px; }
-    .jobs .jobs_box_full .jobs_blue_bg { height: auto; }
+    .jobs .jobs_box_full .jobs_box_width_8_bg { height: auto; }
     .directory .directory_list .directory_img img { width: 50%; margin: 0 auto; }
   }
   @media (max-width:800px) {
@@ -459,7 +461,6 @@ a:hover, a:focus, a:active { text-decoration: none; color: #fff; outline: none; 
     .mob_header .search { width: 323px; height: 80px; z-index: 99; border: none; max-width: 0; padding: 15px; transition: all .5s ease; position: absolute; box-sizing: border-box; opacity: 0; border-bottom: 1px solid #fff; font-size: 24px; left: 0px; top: 0px; }
   }
   @media (max-width:767px) {
-    .signup_form{position: relative;left: inherit;}
     .directory_view .recent_posts ul li { width: 100%; }
     .directory_view .recent_posts ul li:nth-child(1n+0) { padding: 0px; }
     .directory_view .recent_posts ul li { width: 100%; display: table; }
